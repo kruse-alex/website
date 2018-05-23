@@ -126,6 +126,12 @@ disqusShortname = ""
       subtitle = "Interactive Map for a cultural hackathon"
       image = "codingdurer_screenshot.jpg"
       url = "post/coding-dürer"
+
+    [[params.tiles.showcase]]
+      title = "Bike Sharing Hamburg"
+      subtitle = "Interactive map of bike sharing in Hamburg"
+      image = "bike_usage_HH.jpg"
+      url = "post/stadtrad"
       
     [[params.tiles.showcase]]
       title = "Google Takeout"

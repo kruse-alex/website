@@ -11,7 +11,15 @@ keywords: ''
 draft: no
 ---
 
+
 Hi, my name is Alexander Kruse and I live in Hamburg-Germany. I do data analysis and visualization. On this page you can learn a bit about me.
+
+##Personal Information: 
+ * Name: Alexander Kruse
+ * Date of birth: 03.05.1988, Hamburg-Germany
+ * Mail: kruse-alex [at] outlook.de
+ * Twitter: [krusealex2013](https://www.twitter.com/krusealex2013)
+ * Kaggle: [alexkruse](https://www.kaggle.com/alexkruse)
 
 ##Talks: 
  * bla
