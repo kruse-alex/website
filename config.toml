@@ -116,7 +116,7 @@ disqusShortname = ""
       url = "post/yummly"
       
     [[params.tiles.showcase]]
-      title = "Post Coding Dürer: Twitter Analysis"
+      title = "Coding Dürer Twitter Analysis"
       subtitle = "Twitter Analysis of a cultural hackathon"
       image = "twitter_result.jpg"
       url = "post/twitter"
