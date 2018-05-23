@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "http://example.org/"
+baseURL = "/"
 languageCode = "en-us"
 title = "Alex Knows Data"
 theme = "forty"

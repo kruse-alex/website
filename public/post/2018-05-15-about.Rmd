@@ -1,5 +1,5 @@
 ---
-title: About
+title: About me
 author: Alex
 date: '2018-05-15'
 slug: about
@@ -11,4 +11,24 @@ keywords: ''
 draft: no
 ---
 
-Why does this website exist?
+Hi, my name is Alexander Kruse and I live in Hamburg-Germany. I do data analysis and visualization. On this page you can learn a bit about me.
+
+##Talks: 
+ * bla
+ * blalba 
+
+##Hackathons:
+ * bla
+ * blabla
+
+##Tech skills:
+ * bla
+ * blabla
+ 
+##Work experience: 
+ * bla
+ * blalba 
+
+##Education:
+ * bla
+ * blabla
