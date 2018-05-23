@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on Alex Knows Data</title>
+    <link>/tags/r/</link>
+    <description>Recent content in R on Alex Knows Data</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 23 May 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bike Sharing in Hamburg</title>
+      <link>/post/stadtrad/</link>
+      <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/stadtrad/</guid>
+      <description>Read an article on the usage of open data for bicycle traffic planning on my Medium.
+Some important information on this project:Data: http://data.deutschebahn.com/dataset/data-call-a-bikeUse the map here: https://alexkruse.shinyapps.io/stadtrad/I created a Poster for useR 2017 Poster Session and done a workshop for OpenStreetMap.My interactive map shows the bike sharing usage of StadtRAD, the bike sharing system in Hamburg – Germany. The data is available on the open data platform from Deutsche Bahn, the public railway company in Germany.</description>
+    </item>
+    
+    <item>
+      <title>Coding Da Vinci</title>
+      <link>/post/cdv/</link>
+      <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/cdv/</guid>
+      <description>Interaktive Karte für Kultur-Hackathon CodingDaVinci
+Beschreibung des Projekts: Kulturelle Bildung ist ein unverzichtbarer Bestandteil unseres Bildungssystems, da sie für die Würde des Menschen und für die freie Entwicklung seiner Persönlichkeit unentbehrlich ist (Art. 22, UN-Menschenrechtscharta). Ein wichtiger Baustein ist hierbei der Schulausflug ins Museum, um Schülerinnen und Schüler an Kunst und Kultur heranzuführen sowie deren Persönlichkeitsbildung und gesellschaftliche Kompetenz mittels kultureller Bildung zu stärken. Die interaktive Karte „Hamburger Schüler im Museum“ ermöglicht dem Nutzer folgender Frage nachzugehen: In welchen Gegenden von Hamburg machen die Schulen häufig einen Ausflug ins Museum und in welchen Stadtteilen gibt es Nachholbedarf?</description>
+    </item>
+    
+    <item>
+      <title>Coding Dürer</title>
+      <link>/post/coding-d%C3%BCrer/</link>
+      <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/coding-d%C3%BCrer/</guid>
+      <description>Recently I took part at codingdurer, a five days international and interdisciplinary hackathon for art history and information science. The goal of this hackathon is to bring art historians and information scientists together to work on data. It is kind of an extension to the cultural hackathon CodingDaVinci where I participated in the past. I also wrote an article about CDV on this blog.
+At CodingDurer we developed a Shiny App to explore the genre of church interior paintings developed in the Netherlands in the middle of the 17th century.</description>
+    </item>
+    
+    <item>
+      <title>Google Takeout</title>
+      <link>/post/takeout/</link>
+      <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/takeout/</guid>
+      <description>R related Google Search History over time (animated by month with gganimate). Network done with ggnetwork.To get your own Google Search History you just need to go here https://takeout.google.com/settings/takeout and download your dataThe analysis takes only words into account that occured more than twenty times in my Google search history. And it only take connection between words into account that occured more than once. Without these filters there would be too much (uninteressting) data to plot.</description>
+    </item>
+    
+    <item>
+      <title>Ten Decades of Street Tree Planting in Hamburg</title>
+      <link>/post/streettree/</link>
+      <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/streettree/</guid>
+      <description>Hamburg is doing great with its open data platform where you can find a lot of cool data sets to play with. I gave it shot with ten decades of street tree planting data
+You can fine the code on my Github.</description>
+    </item>
+    
+    <item>
+      <title>Top 16% Solution to Kaggle’s Product Classification Challenge</title>
+      <link>/post/kaggle/</link>
+      <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/kaggle/</guid>
+      <description>Kaggle is a platform for predictive modelling and analytics competitions on which companies and researchers post their data and statisticians and data miners from all over the world compete to produce the best models. As of May 2016, Kaggle had over 536,000 registered users, or Kagglers. The community spans 194 countries. It is the largest and most diverse data community in the world (Wikipedia).
+One of my first Kaggle competitions was the OTTO product classification challange.</description>
+    </item>
+    
+    <item>
+      <title>Twitter Analysis of Coding Dürer</title>
+      <link>/post/twitter/</link>
+      <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/twitter/</guid>
+      <description>Recently I took part at Coding Durer, a five days international and interdisciplinary hackathon for art history and information science. The goal of this hackathon is to bring art historians and information scientists together to work on data. It is kind of an extension to the cultural hackathon CodingDaVinci where I participated in the past. I have used the twitter API to get all tweets between 13.03. and 19.03. for the hashtag #codingdurer.</description>
+    </item>
+    
+    <item>
+      <title>What&#39;s cooking?</title>
+      <link>/post/yummly/</link>
+      <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/yummly/</guid>
+      <description>Kaggle is a platform for predictive modelling and analytics competitions on which companies and researchers post their data and statisticians and data miners from all over the world compete to produce the best models. As of May 2016, Kaggle had over 536,000 registered users, or Kagglers. The community spans 194 countries. It is the largest and most diverse data community in the world (Wikipedia).
+One of the most interesting data sets I found on Kaggle was within the What’s Cooking challenge.</description>
+    </item>
+    
+    <item>
+      <title>Marathon Hamburg</title>
+      <link>/post/marathon-hamburg/</link>
+      <pubDate>Tue, 22 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/marathon-hamburg/</guid>
+      <description>I came across this cool piece of data vizualization from the folks of Berliner Morgenpost. I thought it would be nice to re-create the whole visualization for the Hamburg Marathon 2018. I came up with a complete R-based solution.
+I also analyzed the gender differences.
+You can fine the code on my Github.</description>
+    </item>
+    
+    <item>
+      <title>#airrohr</title>
+      <link>/post/airrohr/</link>
+      <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/airrohr/</guid>
+      <description>I installed my own open source fine dust sensor on my balcony in September 2017. I build this sensor as part of a bigger citizen science project called luftdaten.info. The data from all fine dust sensors is also available here. By March 2018 I was wondering how many fine dust sensors we have in Hamburg so I created an animated visualization of the project growth in Hamburg.
+I created another animated visualization to compare the project growth in German cities with more than 50 fine dust sensors.</description>
+    </item>
+    
+  </channel>
+</rss>

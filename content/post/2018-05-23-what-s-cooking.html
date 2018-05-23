@@ -1,0 +1,21 @@
+---
+title: What's cooking?
+author: Alex
+date: '2018-05-23'
+slug: yummly
+categories:
+  - R
+tags:
+  - R
+description: ''
+image: ''
+keywords: ''
+draft: no
+---
+
+
+
+<p><a href="https://www.kaggle.com/c/whats-cooking">Kaggle</a> is a platform for predictive modelling and analytics competitions on which companies and researchers post their data and statisticians and data miners from all over the world compete to produce the best models. As of May 2016, Kaggle had over 536,000 registered users, or Kagglers. The community spans 194 countries. It is the largest and most diverse data community in the world (Wikipedia).</p>
+<p>One of the most interesting data sets I found on Kaggle was within the What’s Cooking challenge. The competition was hosted by Yummly, a mobile app and website that provides recipe recommendations. The Yummly app was named “Best of 2014” in Apple’s App Store. The competition asks you to predict the category of a dish’s cuisine given a list of its ingredients. The training data included a recipe id, the type of cuisine, and a list of ingredients of each recipe. There were 20 types of cuisine in the data set.</p>
+<p>I was able to get a prediction score of about 80 percent with a fairly easy solution. First of all I removed all rare ingredients in the data set. I did not do much feature engineering, except from creating one simple variable for which counts the total number of ingredients per recipe. I also tried some text mining in form of word stemming which brings back a recipes’ ingredient to its root word (e.g. tomatoes become tomato). That approach did not help much in the end so I removed it from my script. I saved my training data in a spare matrix and trained a multiclass classification model using softmax with the xgboost package.</p>
+<p>You can find the R-based solution on <a href="https://github.com/kruse-alex/kaggle_yummly">my Github</a>.</p>

@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<html>
+
+    <head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="description" content="Your description">
+	<meta name="author" content="Your name">
+	<meta name="generator" content="Hugo 0.40.3" />
+	<title>What&#39;s cooking? &middot; Alex Knows Data</title>
+	<!-- Stylesheets -->
+	
+	<link rel="stylesheet" href="/css/main.css"/>
+	
+	
+
+	
+
+	<!-- Custom Fonts -->
+	<link href="/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+	
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+	<link rel="icon" type="image/x-icon" href="/favicon.ico">
+	
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="js/ie/html5shiv.js"></script>
+	<script src="js/ie/html5shiv.jsrespond.min.js"></script>
+	<![endif]-->
+</head>
+    <body>
+
+    <!-- Wrapper -->
+        <div id="wrapper">
+
+            <!-- Header -->
+    <header id="header" class="alt">
+        <a href="/" class="logo"><strong>AKD</strong> <span>Alex Knows Data</span></a>
+        <nav>
+            <a href="#menu">Menu</a>
+        </nav>
+    </header>
+
+<!-- Menu -->
+    <nav id="menu">
+        <ul class="links">
+            
+                <li><a href="/">Home</a></li>
+            
+                <li><a href="/post/about">About</a></li>
+            
+                <li><a href="/elements.html">Elements</a></li>
+            
+
+        </ul>
+        <ul class="actions vertical">
+            
+            
+        </ul>
+    </nav>
+
+        <!-- Main -->
+            <div id="main" class="alt">
+
+                
+                    <section id="one">
+                        <div class="inner">
+                            <header class="major">
+                                <h1>What&#39;s cooking?</h1>
+                            </header>
+                            
+                            <p><a href="https://www.kaggle.com/c/whats-cooking">Kaggle</a> is a platform for predictive modelling and analytics competitions on which companies and researchers post their data and statisticians and data miners from all over the world compete to produce the best models. As of May 2016, Kaggle had over 536,000 registered users, or Kagglers. The community spans 194 countries. It is the largest and most diverse data community in the world (Wikipedia).</p>
+<p>One of the most interesting data sets I found on Kaggle was within the What’s Cooking challenge. The competition was hosted by Yummly, a mobile app and website that provides recipe recommendations. The Yummly app was named “Best of 2014” in Apple’s App Store. The competition asks you to predict the category of a dish’s cuisine given a list of its ingredients. The training data included a recipe id, the type of cuisine, and a list of ingredients of each recipe. There were 20 types of cuisine in the data set.</p>
+<p>I was able to get a prediction score of about 80 percent with a fairly easy solution. First of all I removed all rare ingredients in the data set. I did not do much feature engineering, except from creating one simple variable for which counts the total number of ingredients per recipe. I also tried some text mining in form of word stemming which brings back a recipes’ ingredient to its root word (e.g. tomatoes become tomato). That approach did not help much in the end so I removed it from my script. I saved my training data in a spare matrix and trained a multiclass classification model using softmax with the xgboost package.</p>
+<p>You can find the R-based solution on <a href="https://github.com/kruse-alex/kaggle_yummly">my Github</a>.</p>
+
+                        </div>
+                    </section>
+            <!-- Disqus Inject -->
+                
+            </div>
+            
+        <!-- Footer -->
+            
+                <!-- Footer -->
+    <footer id="footer">
+        <div class="inner">
+            <ul class="icons">
+                
+                    <li><a href="https://www.twitter.com/krusealex2013" class="icon alt fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+                
+                    <li><a href="https://www.github.com/kruse-alex" class="icon alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+                
+            </ul>
+            <ul class="copyright">
+                <li>&copy; Alex Knows Data</li>
+                
+                <li>Design:  <a href="https://www.html5up.net">HTML5 UP</a></li>
+                
+            </ul>
+        </div>
+    </footer>
+
+            
+        </div>
+
+    <!-- Scripts -->
+        <!-- Scripts -->
+    <!-- jQuery -->
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.scrolly.min.js"></script>
+    <script src="/js/jquery.scrollex.min.js"></script>
+    <script src="/js/skel.min.js"></script>
+    <script src="/js/util.js"></script>
+
+    
+
+    <!-- Main JS -->
+    <script src="/js/main.js"></script>
+
+    
+
+    
+
+    </body>
+</html>

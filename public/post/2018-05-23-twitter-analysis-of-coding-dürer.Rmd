@@ -1,0 +1,20 @@
+---
+title: Twitter Analysis of Coding Dürer
+author: Alex
+date: '2018-05-23'
+slug: twitter
+categories:
+  - R
+tags:
+  - R
+description: ''
+image: ''
+keywords: ''
+draft: no
+---
+
+Recently I took part at [Coding Durer](http://codingdurer.de/), a five days international and interdisciplinary hackathon for art history and information science. The goal of this hackathon is to bring art historians and information scientists together to work on data. It is kind of an extension to the cultural hackathon [CodingDaVinci](https://codingdavinci.de/) where I participated in the past. I have used the twitter API to get all tweets between 13.03. and 19.03. for the hashtag #codingdurer. I have removed some uninteresting words (e.g. stop words and twitter account names) from the data and used singularization.
+
+![](/post/2018-05-23-twitter-analysis-of-coding-dürer_files/twitter_result.jpg)
+
+You can find the code to do this analysis and visualization on <a href="https://github.com/kruse-alex/codingdurer_twitter">my Github</a>.

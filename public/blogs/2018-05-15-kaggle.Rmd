@@ -1,0 +1,18 @@
+---
+title: Kaggle
+author: Alex
+date: '2018-05-15'
+slug: kaggle
+categories:
+  - R
+tags: []
+description: ''
+image: ''
+keywords: ''
+draft: no
+---
+
+
+```{r cool-plot, fig.cap='A cool plot.'}
+plot(cars, pch = 20)  # not really cool
+```

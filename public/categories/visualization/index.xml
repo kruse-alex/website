@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Visualization on Alex Knows Data</title>
+    <link>/categories/visualization/</link>
+    <description>Recent content in Visualization on Alex Knows Data</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 May 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/visualization/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>#airrohr</title>
+      <link>/post/airrohr/</link>
+      <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/airrohr/</guid>
+      <description>I installed my own open source fine dust sensor on my balcony in September 2017. I build this sensor as part of a bigger citizen science project called luftdaten.info. The data from all fine dust sensors is also available here. By March 2018 I was wondering how many fine dust sensors we have in Hamburg so I created an animated visualization of the project growth in Hamburg.
+I created another animated visualization to compare the project growth in German cities with more than 50 fine dust sensors.</description>
+    </item>
+    
+  </channel>
+</rss>

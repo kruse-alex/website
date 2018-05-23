@@ -1,0 +1,22 @@
+---
+title: Google Takeout
+author: Alex
+date: '2018-05-23'
+slug: takeout
+categories:
+  - R
+tags:
+  - R
+description: ''
+image: ''
+keywords: ''
+draft: no
+---
+
+ + R related Google Search History over time (animated by month with gganimate). Network done with ggnetwork.
+ + To get your own Google Search History you just need to go here https://takeout.google.com/settings/takeout and download your data
+ + The analysis takes only words into account that occured more than twenty times in my Google search history. And it only take connection between words into account that occured more than once. Without these filters there would be too much (uninteressting) data to plot. 
+ 
+![](/post/2018-05-23-google-takeout_files/googlesearch.gif)
+
+Find the code to re-create the analysis and visualization on <a href="https://github.com/kruse-alex/takeout/">my Github</a>.

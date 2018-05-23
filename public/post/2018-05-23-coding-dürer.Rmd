@@ -1,0 +1,33 @@
+---
+title: Coding Dürer
+author: Alex
+date: '2018-05-23'
+slug: coding-dürer
+categories:
+  - R
+tags:
+  - R
+description: ''
+image: ''
+keywords: ''
+draft: no
+---
+
+Recently I took part at [codingdurer](http://codingdurer.de/), a five days international and interdisciplinary hackathon for art history and information science. The goal of this hackathon is to bring art historians and information scientists together to work on data. It is kind of an extension to the cultural hackathon [CodingDaVinci](https://codingdavinci.de/) where I participated in the past. I also wrote an article about CDV on this blog.
+
+At CodingDurer we developed a Shiny App to explore the genre of church interior paintings developed in the Netherlands in the middle of the 17th century. There are hundreds of church interior paintings scattered across collections around the world. The research of this subject to date has focused mainly on particular artists or churches, rather than the overall genre and its network of artists and places. This project, born during the Coding Durer 2017, addresses this issue by providing a platform for further research on the paintings and creating an insight into the bigger picture of the genre for the first time. This visualization of over 200 paintings of 26 different churches by 16 different artists was created with the following research questions in mind:
+
+ + In what places the artists were active and in what places did they depict church interior(s)?
+ + Did the artists have ‘favourite’ church interiors?
+ + In what places and when would the artists possibly meet?
+ + What church interiors were depicted the most?
+ + What church interiors were depicted by most artists?
+ 
+The starting point of the project was a spreadsheet listing the paintings, artists, collections, etc. that was created for research purposes two years ago. This re-purposed data needed cleaning and additional information, e.g. IDs (artists, churches, paintings), locations (longitude, latitude), and stable URLs for images.
+
+ + Interactive Web App to discover and analyze Dutch Interior Church Paintings.
+ + Check out the App: https://alexkruse.shinyapps.io/dutchchurch/
+ 
+ ![](/post/2018-05-23-coding-dürer_files/codingdurer_screenshot.jpg)
+
+You can find the code for the shiny app on <a href="https://github.com/kruse-alex/codingdurer">my Github</a>.
