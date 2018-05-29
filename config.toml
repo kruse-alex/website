@@ -94,8 +94,14 @@ disqusShortname = ""
     [[params.tiles.showcase]]
       title = "Hamburg Marathon 2018"
       subtitle = "Animated visualization of the Hamburg Marathon 2018"
-      image = "marathon.jpeg"
+      image = "marathon.jpg"
       url = "post/marathon-hamburg"
+      
+    [[params.tiles.showcase]]
+      title = "Bike Sharing Hamburg"
+      subtitle = "Interactive map of bike sharing in Hamburg"
+      image = "bike_usage_HH.jpg"
+      url = "post/stadtrad"
     
     [[params.tiles.showcase]]
       title = "#airrohr"
@@ -112,7 +118,7 @@ disqusShortname = ""
     [[params.tiles.showcase]]
       title = "Kaggle Solution: Yummly"
       subtitle = "Predict the category of a dish’s cuisine given a list of its ingredients"
-      image = "yummly.jpg"
+      image = "kaggle.png"
       url = "post/yummly"
       
     [[params.tiles.showcase]]
@@ -126,12 +132,6 @@ disqusShortname = ""
       subtitle = "Interactive Map for a cultural hackathon"
       image = "codingdurer_screenshot.jpg"
       url = "post/coding-dürer"
-
-    [[params.tiles.showcase]]
-      title = "Bike Sharing Hamburg"
-      subtitle = "Interactive map of bike sharing in Hamburg"
-      image = "bike_usage_HH.jpg"
-      url = "post/stadtrad"
       
     [[params.tiles.showcase]]
       title = "Google Takeout"
@@ -142,7 +142,7 @@ disqusShortname = ""
     [[params.tiles.showcase]]
       title = "Kaggle Solution: OTTO"
       subtitle = "Top 16% Solution to Kaggle’s Product Classification Challenge"
-      image = "kaggle.jpg"
+      image = "kaggle.png"
       url = "post/kaggle"
       
     [[params.tiles.showcase]]

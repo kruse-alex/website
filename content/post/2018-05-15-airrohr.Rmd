@@ -15,21 +15,12 @@ image: ''
 keywords: ''
 ---
 
-<center>
-
-I installed my own open source fine dust sensor on my balcony in September 2017. I build this sensor as part of a bigger citizen science project called <a href="https://luftdaten.info/">luftdaten.info</a>. The data from all fine dust sensors is also available <a href="https://github.com/opendata-stuttgart/meta/wiki/APIs">here</a>. By March 2018 I was wondering how many fine dust sensors we have in Hamburg so I created an animated visualization of the project growth in Hamburg.
+I installed my own open source fine dust sensor on my balcony in September 2017. I build this sensor as part of a bigger citizen science project called <a href="https://luftdaten.info/">luftdaten.info</a>. The data from all fine dust sensors is also available <a href="https://github.com/opendata-stuttgart/meta/wiki/APIs">here</a>. By March 2018 I was wondering how many fine dust sensors we have in Hamburg so I created an animated visualization of the project growth in Hamburg. It's all made with <a href="https://twitter.com/search?q=%23rstats&src=typd">#rstats</a>. The gif is made out of multiple ggplot outputs.
 
 ![](/post/2018-05-15-airrohr_files/airrohr_hamburg.gif)
-![](/post/2018-05-15-airrohr_files/airrohr_hamburg.gif){width=400px height=400px}
 
-I created another animated visualization to compare the project growth in German cities with more than 50 fine dust sensors.
+I created another animated visualization to compare the project growth in German cities with more than 50 fine dust sensors. Same thing here, the gif is made out of multiple ggplot outputs.
 
 ![](/post/2018-05-15-airrohr_files/airrohr_city_small.gif)
 
-
-
-
-
 Both visualization are done with R and you can find the code on <a href="https://github.com/kruse-alex/airrohr">my Github</a>.
-
-</center>

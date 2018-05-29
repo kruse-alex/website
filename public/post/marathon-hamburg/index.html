@@ -53,8 +53,6 @@
             
                 <li><a href="/post/about">About</a></li>
             
-                <li><a href="/elements.html">Elements</a></li>
-            
 
         </ul>
         <ul class="actions vertical">
@@ -73,17 +71,17 @@
                                 <h1>Marathon Hamburg</h1>
                             </header>
                             
-                            <p>I came across <a href="https://interaktiv.morgenpost.de/berlin-marathon-2017/">this cool piece</a> of data vizualization from the folks of Berliner Morgenpost. I thought it would be nice to re-create the whole visualization for the Hamburg Marathon 2018. I came up with a complete R-based solution.</p>
+                            <p>I came across <a href="https://interaktiv.morgenpost.de/berlin-marathon-2017/">this cool piece</a> of data vizualization from the folks of Berliner Morgenpost. I thought it would be nice to re-create the whole visualization for the Hamburg Marathon 2018. I came up with a complete R-based solution. The animated visualiaztion itself is made out of multiple ggplot outputs.</p>
 <div class="figure">
 <img src="/post/2018-05-22-marathon-hamburg_files/marathon.gif" />
 
 </div>
-<p>I also analyzed the gender differences.</p>
+<p>I also analyzed the gender differences at the Hamburg Marathon 2018. I would say it is a proper misuse of error bars :) It is the same thing here, I just put together multiple ggplot outputs into a gif. I also tried out violin plots but they did not seem to work proberly in an animated visualization because all there runners are at the same position at the start which completly distroys your scale and y-axis.</p>
 <div class="figure">
 <img src="/post/2018-05-22-marathon-hamburg_files/marathon_gender.gif" />
 
 </div>
-<p>You can fine the code on <a href="https://github.com/kruse-alex/marathon">my Github</a>.</p>
+<p>As always, you can find the code for both visualizations on <a href="https://github.com/kruse-alex/marathon">my Github</a>.</p>
 
                         </div>
                     </section>

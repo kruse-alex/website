@@ -12,7 +12,7 @@ draft: no
 ---
 
 
-Hi, my name is Alexander Kruse and I live in Hamburg-Germany. I do data analysis and visualization. On this page you can learn a bit about me.
+Hi, my name is Alexander Kruse and I live in Hamburg-Germany. I do data analysis and visualization.
 
 ##Personal Information: 
  * Name: Alexander Kruse
@@ -22,21 +22,43 @@ Hi, my name is Alexander Kruse and I live in Hamburg-Germany. I do data analysis
  * Kaggle: [alexkruse](https://www.kaggle.com/alexkruse)
 
 ##Talks: 
- * bla
- * blalba 
+ * [Hamburg R User Group](https://www.meetup.com/de-DE/Hamburg-R-User-Group/events/240818665/), 01.08.2017, Lightning Talk, Visualization of usage of bike sharing network in Hamburg (StadtRAD)
+ * [OpenStreetMap](https://www.eventbrite.com/e/open-bike-data-mapping-with-openstreetmap-registration-34806438996#), 21.07.2017, Talk, Analysing and visualising bike sharing usage in Hamburg
+ * [useR 2017](https://user2017.brussels/posters), 04.-07.07.2017, Poster Session, Bike sharing usage with Shiny and Leaflet
+ * [R-Kenntnis-Tage 2016](https://www.eoda.de/de/R-Kenntnis-Tage-2016.html), 2.-3.11.2016, Talk, Multidimensionales Clustering mit Webanalysedaten
+ * [eRum 2016](http://erum.ue.poznan.pl/), 12.-14.10.2016, Lightning Talk, Multidimensional Clustering of Web Analytics Data
+ * [Digital Analytics Association](https://digital-analytics-association.de/events/event/daala-hamburg-dienstag-10-mai-2016-golf-lounge-hamburg-mit-etracker-2/), 10.05.2016, Talk, Professionelle Konversions-Analyse und -Optimierung
 
 ##Hackathons:
- * bla
- * blabla
+ * [Coding Dürer](http://codingdurer.de/), 13.-17.03.2017, [Church Interior Paintings](http://www.alexknowsdata.com/post/coding-dürer/)
+ * [Coding Da Vinci](https://codingdavinci.de/events/nord/), 06.11.2016, [Hamburger Schüler im Museum](http://www.alexknowsdata.com/post/cdv/)
 
 ##Tech skills:
- * bla
- * blabla
+ * R: 8/10
+ * R Shiny: 8/10
+ * Markdown: 6/10
+ * SQL: 3/10
+ * BASH: 3/10
+ * HTML/CSS: 3/10
+ * Git/Github: 3/10
+ * Longer ago: SAP BW, QlikView, Tableau, RapidMiner, SPSS, STATA, AMPL
+ 
+##Project focus:
+ * Recommendation engine for online shops
+ * Marketing attribution models
+ * Clustering of website visitors
+ * Clickstream analysis of website visitors
+ * Spatial data analysis and maps, especially for mobility and environmental data
+ * Shiny dashboards and interactive reporting
+ * Prediction models on [Kaggle](https://www.kaggle.com/)
+ * Working with open data, especially from Hamburg
  
 ##Work experience: 
- * bla
- * blalba 
+ * etracker, Data Analyst, 09.2015-07.2018
+ * Lufthansa Industry Solutions, Consulting Data Science, 06.2015-07.2015
+ * PwC Forensic Data Analytics, Master thesis, 03.2014-09.2014
+ * And some Internships...
 
 ##Education:
- * bla
- * blabla
+ * M.Sc. Business Analytics, University Duisburg-Essen, 04.2012-09.2014
+ * B.A. Business Management, EMBA Hamburg, 09.2008-10.2011
