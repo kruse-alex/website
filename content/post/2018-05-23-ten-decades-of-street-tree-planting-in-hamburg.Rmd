@@ -13,9 +13,9 @@ keywords: ''
 draft: no
 ---
 
-Hamburg is doing great with its <a href="http://transparenz.hamburg.de/">open data platform</a> where you can find a lot of cool data sets to play with. I gave it shot with <a href="http://suche.transparenz.hamburg.de/dataset/strassenbaumkataster-hamburg8?forceWeb=true">ten decades of street tree planting data</a>
+Hamburg is doing great with its <a href="http://transparenz.hamburg.de/">open data platform</a> where you can find a lot of cool data sets to play with. I gave it shot with <a href="http://suche.transparenz.hamburg.de/dataset/strassenbaumkataster-hamburg8?forceWeb=true">ten decades of street tree planting data</a> and made an animated poster-style visualization. It would be awesome not only to get data on tree plantings but also felling. I am in contact with the authorities but it seems quite hard to get on the data. We will see.
 
 ![](/post/2018-05-23-ten-decades-of-street-tree-planting-in-hamburg_files/streettrees.gif)
 
-You can fine the code on <a href="https://github.com/kruse-alex/hamburg_trees">my Github</a>.
+You can find the code on <a href="https://github.com/kruse-alex/hamburg_trees">my Github</a>.
 

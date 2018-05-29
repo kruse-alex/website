@@ -18,7 +18,7 @@ I came across <a href="https://interaktiv.morgenpost.de/berlin-marathon-2017/">t
 ![](/post/2018-05-22-marathon-hamburg_files/marathon.gif)
 
 
-I also analyzed the gender differences at the Hamburg Marathon 2018. I would say it is a proper misuse of error bars :) It is the same thing here, I just put together multiple ggplot outputs into a gif. I also tried out violin plots but they did not seem to work proberly in an animated visualization because all there runners are at the same position at the start which completly distroys your scale and y-axis.
+I also analyzed the gender differences at the Hamburg Marathon 2018. I would say it is a proper misuse of error bars :) It is the same thing here, I just put together multiple ggplot outputs into a gif. I also tried out violin plots but they did not seem to work in an animated visualization because all runners are at the same position at the start which completly distroys the scale and y-axis.
 
 ![](/post/2018-05-22-marathon-hamburg_files/marathon_gender.gif)
 

@@ -17,7 +17,7 @@
       <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/stadtrad/</guid>
-      <description>Read an article on the usage of open data for bicycle traffic planning on my Medium.
+      <description>Read an article on the usage of open data for bicycle traffic planning on my Medium (in German).
 Some important information on this project:Data: http://data.deutschebahn.com/dataset/data-call-a-bikeUse the map here: https://alexkruse.shinyapps.io/stadtrad/I created a Poster for useR 2017 Poster Session and done a workshop for OpenStreetMap.My interactive map shows the bike sharing usage of StadtRAD, the bike sharing system in Hamburg – Germany. The data is available on the open data platform from Deutsche Bahn, the public railway company in Germany.</description>
     </item>
     
@@ -56,8 +56,7 @@ At CodingDurer we developed a Shiny App to explore the genre of church interior 
       <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/streettree/</guid>
-      <description>Hamburg is doing great with its open data platform where you can find a lot of cool data sets to play with. I gave it shot with ten decades of street tree planting data
-You can fine the code on my Github.</description>
+      <description>Hamburg is doing great with its open data platform where you can find a lot of cool data sets to play with. I gave it shot with ten decades of street tree planting data and made an animated poster-style visualization. It would be awesome not only to get data on tree plantings but also felling. I am in contact with the authorities but it seems quite hard to get on the data.</description>
     </item>
     
     <item>
