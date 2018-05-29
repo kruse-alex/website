@@ -100,7 +100,7 @@ disqusShortname = ""
     [[params.tiles.showcase]]
       title = "Bike Sharing Hamburg"
       subtitle = "Interactive map of bike sharing in Hamburg"
-      image = "bike_usage_HH.jpg"
+      image = "bike_usage_HH.png"
       url = "post/stadtrad"
     
     [[params.tiles.showcase]]
@@ -111,7 +111,7 @@ disqusShortname = ""
       
     [[params.tiles.showcase]]
       title = "Street Trees in Hamburg"
-      subtitle = "Animated visualization of street tree planting in Hamburg"
+      subtitle = "Animated visualization of street tree plantings in Hamburg"
       image = "streettree.jpg"
       url = "post/streettree"
       
