@@ -24,6 +24,7 @@ Hi, my name is Alexander Kruse and I live in Hamburg-Germany. I do data analysis
  * Mail: kruse-alex [at] outlook.de
  * Twitter: [krusealex2013](https://www.twitter.com/krusealex2013)
  * Kaggle: [alexkruse](https://www.kaggle.com/alexkruse)
+ * Github: [kruse-alex](https://github.com/kruse-alex)
 
 ##Talks: 
  * [Hamburg R User Group](https://www.meetup.com/de-DE/Hamburg-R-User-Group/events/240818665/), 01.08.2017, Lightning Talk, Visualization of usage of bike sharing network in Hamburg (StadtRAD)
