@@ -163,7 +163,7 @@ disqusShortname = ""
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Alex Knows Data"
+    copyright = "alexknowsdata"
 
     # Uses font awesome icons
     [[params.footer.social]]
