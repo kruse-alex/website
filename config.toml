@@ -19,13 +19,13 @@ disqusShortname = ""
   # CSS class.
 
   # Provide your metadata here.
-  name = "Your name"
-  description = "Your description"
+  name = "Alexander Kruse"
+  description = "My portfolio of data driven projects"
 
   # Link custom assets relative to /static
   custom_css = []
   custom_js  = []
-  favicon    = "favicon.ico"
+  favicon    = "favicoo.png"
 
   # Just a custom image variable, please define it in .md files for content.
   image = ""
