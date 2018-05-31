@@ -1,0 +1,16 @@
+---
+title: Building a recommendation engine in R
+author: alex
+date: '2018-05-31'
+slug: reco-engine
+categories:
+  - R
+tags:
+  - R
+description: ''
+image: ''
+keywords: ''
+draft: no
+---
+
+A product based recommendation engine with the recommenerlab R-package. On <a href="https://github.com/kruse-alex/airrohr">my Github</a> you will find the R code to create product recommendations on a test data set (see product_views.csv). The data file consists of different website visiors with unique user ids and their views of products in an online shop. This is a made up test data file to put the recommendation algorithm into work. The recommenderlab package provides an infrastructure to test and develop recommender algorithms.

@@ -138,6 +138,12 @@ disqusShortname = ""
       subtitle = "Interactive Map for a cultural hackathon"
       image = "codingdurer_screenshot.jpg"
       url = "post/coding-dürer"
+      
+    [[params.tiles.showcase]]
+      title = "Building a recommendation engine in R"
+      subtitle = "How to find similar products based on user histories?"
+      #image = "attribution01_small.png"
+      url = "post/reco-engine"
    
    [[params.tiles.showcase]]
       title = "Marketing Attribution Modeling"

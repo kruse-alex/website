@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Building a recommendation engine in R</title>
+      <link>/post/reco-engine/</link>
+      <pubDate>Thu, 31 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/reco-engine/</guid>
+      <description>A product based recommendation engine with the recommenerlab R-package. On my Github you will find the R code to create product recommendations on a test data set (see product_views.csv). The data file consists of different website visiors with unique user ids and their views of products in an online shop. This is a made up test data file to put the recommendation algorithm into work. The recommenderlab package provides an infrastructure to test and develop recommender algorithms.</description>
+    </item>
+    
+    <item>
       <title>Marketing Attribution</title>
       <link>/post/attribution/</link>
       <pubDate>Thu, 31 May 2018 00:00:00 +0000</pubDate>
