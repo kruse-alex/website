@@ -14,7 +14,7 @@ draft: no
 
 Hi, my name is Alexander Kruse and I live in Hamburg-Germany. I do data analysis and visualizations.
 
-![](/post/2018-05-15-about_files/alex.jpg)
+![](/post/2018-05-15-about_files/alex2.jpg)
 
  
 ##
