@@ -122,6 +122,12 @@ disqusShortname = ""
       url = "post/yummly"
       
     [[params.tiles.showcase]]
+      title = "Cluster Analysis"
+      subtitle = "How to visualize the Results of a Cluster Analysis?"
+      image = "clustering_small.JPG"
+      url = "post/clustering"
+      
+    [[params.tiles.showcase]]
       title = "Coding Dürer Twitter Analysis"
       subtitle = "Twitter Analysis of a cultural hackathon"
       image = "twitter_result.jpg"
@@ -132,7 +138,13 @@ disqusShortname = ""
       subtitle = "Interactive Map for a cultural hackathon"
       image = "codingdurer_screenshot.jpg"
       url = "post/coding-dürer"
-      
+   
+   [[params.tiles.showcase]]
+      title = "Marketing Attribution Modeling"
+      subtitle = "How to set up an algorithmic attribution model?"
+      image = "attribution01_small.png"
+      url = "post/attribution"
+
     [[params.tiles.showcase]]
       title = "Google Takeout"
       subtitle = "My R-related Google Search History over time "
@@ -150,6 +162,12 @@ disqusShortname = ""
       subtitle = "Interactive Map for a cultural hackathon"
       image = "cdv.jpg"
       url = "post/cdv"
+    
+    [[params.tiles.showcase]]
+      title = "Simple but nifty cohorts in R"
+      subtitle = "How to use ggplot to create cohorts?"
+      image = "cohort_small.png"
+      url = "post/cohorts"
       
 
 

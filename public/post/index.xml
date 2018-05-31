@@ -6,10 +6,38 @@
     <description>Recent content in Posts on Alex Knows Data</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 23 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 31 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Marketing Attribution</title>
+      <link>/post/attribution/</link>
+      <pubDate>Thu, 31 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/attribution/</guid>
+      <description>In the world of e-commerce a customer has often seen more than just one marketing channel before they buy a product. We call this a customer journey. Marketing attribution has the goal to find out the importance of each channel over all customers. This information can then be used to optimize your marketing strategy and allocate your budget perfectly but also gives you valuable insights into your customers. There are a lot of different models to allocate your conversions (or sales) to the different marketing channels.</description>
+    </item>
+    
+    <item>
+      <title>Simple but nifty cohorts in R</title>
+      <link>/post/cohorts/</link>
+      <pubDate>Thu, 31 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/cohorts/</guid>
+      <description>Cohorts are always a great way to split a group into segments and get a deeper view of what ever you looking at. Imagine you have an online shop and would like to know how your user retention has developed over the last view weeks.
+The diagram above basically shows the retention rate of fifteen different groups. For example about 25 percent of the people from cohort one came back to visit our online shop 15 weeks after their first visit.</description>
+    </item>
+    
+    <item>
+      <title>Visualizing Clustering Results in R</title>
+      <link>/post/clustering/</link>
+      <pubDate>Thu, 31 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/clustering/</guid>
+      <description>Recently I thought about how to visualize the result of a cluster analysis. I do not mean the visualization of the clusters itself but the results in terms of content and variable description – something you could give away to someone who does not understand the mechanics of cluster algorithms and just want to see a description of the resulting clusters. I came up with a ggplot solution which looks like the following.</description>
+    </item>
     
     <item>
       <title>Bike Sharing in Hamburg</title>
