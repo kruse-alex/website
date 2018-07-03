@@ -94,7 +94,7 @@ disqusShortname = ""
     [[params.tiles.showcase]]
       title = "#nr18 Twitter Analysis"
       subtitle = "Twitter analysis of Netzwerk Recherche’s annual conference 2018"
-      image = "marathon.jpg"
+      image = "people.png"
       url = "post/nr18"
         
     [[params.tiles.showcase]]
