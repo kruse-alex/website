@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Alex Knows Data</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 31 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>#nr18 Twitter Analysis</title>
+      <link>/post/nr18/</link>
+      <pubDate>Tue, 03 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/nr18/</guid>
+      <description>I took my oldschool-ish twitter analysis script and gave it a try for the hastag #nr18. nr18 was the Netzwerk Recherche’s annual conference 2018 takes place on Friday and Saturday 29-30th June at NDR (Northern German Broadcasting) in Hamburg. netzwerk recherche e.V. (nr) is a registered not-for-profit association of journalists founded in 2001. They also had a track on data journalism. Find more info here: https://netzwerkrecherche.org.
+As always, you can find the code for all visualizations on my Github.</description>
+    </item>
     
     <item>
       <title>Building a recommendation engine in R</title>

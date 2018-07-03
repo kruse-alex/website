@@ -90,7 +90,13 @@ disqusShortname = ""
   [params.tiles]
     enable = true
     # Display your showcases here.
-    
+
+    [[params.tiles.showcase]]
+      title = "#nr18 Twitter Analysis"
+      subtitle = "Twitter analysis of Netzwerk Recherche’s annual conference 2018"
+      image = "marathon.jpg"
+      url = "post/nr18"
+        
     [[params.tiles.showcase]]
       title = "Hamburg Marathon 2018"
       subtitle = "Animated visualization of the Hamburg Marathon 2018"
