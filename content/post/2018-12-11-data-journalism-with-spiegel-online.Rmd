@@ -1,0 +1,17 @@
+---
+title: Data journalism with Spiegel Online
+author: Akruse
+date: '2018-12-11'
+slug: ddj
+categories:
+  - animation
+tags:
+  - R
+description: ''
+image: ''
+keywords: ''
+draft: no
+---
+
+I came across <a href="https://interaktiv.morgenpost.de/berlin-marathon-2017/">this cool piece</a> of data vizualization from the folks of Berliner Morgenpost. I thought it would be nice to re-create the whole visualization for the Hamburg Marathon 2018. I came up with a complete R-based solution. The animated visualiaztion itself is made out of multiple ggplot outputs.
+

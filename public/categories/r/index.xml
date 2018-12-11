@@ -18,7 +18,7 @@
       
       <guid>/post/nr18/</guid>
       <description>I took my oldschool-ish twitter analysis script and gave it a try for the hastag #nr18. nr18 was the Netzwerk Recherche’s annual conference 2018 which took place on Friday and Saturday 29-30th June at NDR (Northern German Broadcasting) in Hamburg. netzwerk recherche e.V. (nr) is a registered not-for-profit association of journalists founded in 2001. They also had a track on data journalism. Find more info here: https://netzwerkrecherche.org.
-As always, you can find the code for all visualizations on my Github.</description>
+    As always, you can find the code for all visualizations on my Github.</description>
     </item>
     
     <item>
@@ -46,7 +46,7 @@
       
       <guid>/post/cohorts/</guid>
       <description>Cohorts are always a great way to split a group into segments and get a deeper view of what ever you looking at. Imagine you have an online shop and would like to know how your user retention has developed over the last view weeks.
-The diagram above basically shows the retention rate of fifteen different groups. For example about 25 percent of the people from cohort one came back to visit our online shop 15 weeks after their first visit.</description>
+ The diagram above basically shows the retention rate of fifteen different groups. For example about 25 percent of the people from cohort one came back to visit our online shop 15 weeks after their first visit.</description>
     </item>
     
     <item>
@@ -65,7 +65,7 @@
       
       <guid>/post/stadtrad/</guid>
       <description>Read an article on the usage of open data for bicycle traffic planning on my Medium (in German).
-Some important information on this project:Data: http://data.deutschebahn.com/dataset/data-call-a-bikeUse the map here: https://alexkruse.shinyapps.io/stadtrad/I created a Poster for useR 2017 Poster Session and done a workshop for OpenStreetMap.My interactive map shows the bike sharing usage of StadtRAD, the bike sharing system in Hamburg – Germany. The data is available on the open data platform from Deutsche Bahn, the public railway company in Germany.</description>
+Some important information on this project:  Data: http://data.deutschebahn.com/dataset/data-call-a-bike Use the map here: https://alexkruse.shinyapps.io/stadtrad/ I created a Poster for useR 2017 Poster Session and done a workshop for OpenStreetMap.  My interactive map shows the bike sharing usage of StadtRAD, the bike sharing system in Hamburg – Germany. The data is available on the open data platform from Deutsche Bahn, the public railway company in Germany.</description>
     </item>
     
     <item>
@@ -94,7 +94,7 @@ At CodingDurer we developed a Shiny App to explore the genre of church interior 
       <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/takeout/</guid>
-      <description>R related Google Search History over time (animated by month with gganimate). Network done with ggnetwork.To get your own Google Search History you just need to go here https://takeout.google.com/settings/takeout and download your dataThe analysis takes only words into account that occured more than twenty times in my Google search history. And it only take connection between words into account that occured more than once. Without these filters there would be too much (uninteressting) data to plot.</description>
+      <description>R related Google Search History over time (animated by month with gganimate). Network done with ggnetwork. To get your own Google Search History you just need to go here https://takeout.google.com/settings/takeout and download your data The analysis takes only words into account that occured more than twenty times in my Google search history. And it only take connection between words into account that occured more than once. Without these filters there would be too much (uninteressting) data to plot.</description>
     </item>
     
     <item>
@@ -142,7 +142,7 @@ One of the most interesting data sets I found on Kaggle was within the What’s 
       
       <guid>/post/marathon-hamburg/</guid>
       <description>I came across this cool piece of data vizualization from the folks of Berliner Morgenpost. I thought it would be nice to re-create the whole visualization for the Hamburg Marathon 2018. I came up with a complete R-based solution. The animated visualiaztion itself is made out of multiple ggplot outputs.
-I also analyzed the gender differences at the Hamburg Marathon 2018. I would say it is a proper misuse of error bars :) It is the same thing here, I just put together multiple ggplot outputs into a gif.</description>
+ I also analyzed the gender differences at the Hamburg Marathon 2018. I would say it is a proper misuse of error bars :) It is the same thing here, I just put together multiple ggplot outputs into a gif.</description>
     </item>
     
     <item>

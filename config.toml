@@ -90,6 +90,13 @@ disqusShortname = ""
   [params.tiles]
     enable = true
     # Display your showcases here.
+    
+    [[params.tiles.showcase]]
+      title = "Data journalism with Spiegel Online"
+      subtitle = "Projects I have worked on during my Google Fellowship with Spiegel Online"
+      image = "schufa.png"
+      url = "post/ddj"
+
 
     [[params.tiles.showcase]]
       title = "#nr18 Twitter Analysis"

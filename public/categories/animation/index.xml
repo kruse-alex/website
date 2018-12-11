@@ -6,10 +6,19 @@
     <description>Recent content in Animation on Alex Knows Data</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/animation/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Data journalism with Spiegel Online</title>
+      <link>/post/ddj/</link>
+      <pubDate>Tue, 11 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/ddj/</guid>
+      <description>I came across this cool piece of data vizualization from the folks of Berliner Morgenpost. I thought it would be nice to re-create the whole visualization for the Hamburg Marathon 2018. I came up with a complete R-based solution. The animated visualiaztion itself is made out of multiple ggplot outputs.</description>
+    </item>
     
     <item>
       <title>#airrohr</title>
