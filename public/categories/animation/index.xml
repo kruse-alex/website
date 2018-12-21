@@ -17,7 +17,8 @@
       <pubDate>Tue, 11 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/ddj/</guid>
-      <description>I came across this cool piece of data vizualization from the folks of Berliner Morgenpost. I thought it would be nice to re-create the whole visualization for the Hamburg Marathon 2018. I came up with a complete R-based solution. The animated visualiaztion itself is made out of multiple ggplot outputs.</description>
+      <description>Between August and September 2018 I had the chance to support some data journalism projects at Spiegel Online as part of my Google Fellowship. Here is a list of things I have worked on during my fellowship:
+Blackbox SchufaDeutschland sprichtAuswärtstorregel</description>
     </item>
     
     <item>
