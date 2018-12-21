@@ -13,5 +13,11 @@ keywords: ''
 draft: no
 ---
 
-I came across <a href="https://interaktiv.morgenpost.de/berlin-marathon-2017/">this cool piece</a> of data vizualization from the folks of Berliner Morgenpost. I thought it would be nice to re-create the whole visualization for the Hamburg Marathon 2018. I came up with a complete R-based solution. The animated visualiaztion itself is made out of multiple ggplot outputs.
+Between August and September 2018 I had the chance to support some data journalism projects at [Spiegel Online](http://www.spiegel.de/thema/daten/) as part of my [Google Fellowship](https://newsinitiative.withgoogle.com/training/fellowship-de). Here is a list of things I have worked on during my fellowship:
+
+  + [Blackbox Schufa](http://www.spiegel.de/wirtschaft/service/schufa-so-funktioniert-deutschlands-einflussreichste-auskunftei-a-1239214.html)
+  + [Deutschland spricht](http://www.spiegel.de/kultur/gesellschaft/deutschland-spricht-kuck-mal-wer-da-spricht-eine-datenanalyse-a-1228590.html)
+  + [Auswärtstorregel](http://www.spiegel.de/sport/fussball/champions-league-warum-die-auswaertstorregel-nicht-mehr-zeitgemaess-ist-a-1228213.html)
+  
+  
 
