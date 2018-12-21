@@ -6,10 +6,19 @@
     <description>Recent content on Alex Knows Data</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Twitter Bot Open Data Hamburg</title>
+      <link>/post/opendata/</link>
+      <pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/opendata/</guid>
+      <description>I have build a twitter bot that tweets everytime a new dataset is being uploaded on the Open Data Portal of Hamburg. You can find the code behind the bot on my Github. It is sheduled via a cronjob on a virtual machine on Google Cloud Platform.</description>
+    </item>
     
     <item>
       <title>Data journalism with Spiegel Online</title>

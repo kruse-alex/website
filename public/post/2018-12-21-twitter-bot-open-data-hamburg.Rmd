@@ -1,0 +1,17 @@
+---
+title: Twitter Bot Open Data Hamburg
+author: kruse
+date: '2018-12-21'
+slug: opendata
+categories:
+  - R
+  - animation
+tags:
+  - R
+description: ''
+image: ''
+keywords: ''
+draft: no
+---
+
+I have build a [twitter bot](https://twitter.com/opendata_hh) that tweets everytime a new dataset is being uploaded on the [Open Data Portal of Hamburg](http://transparenz.hamburg.de/suche/). You can find the code behind the bot on [my Github](https://github.com/kruse-alex/twitter_bot_opendata_hh). It is sheduled via a cronjob on a virtual machine on Google Cloud Platform.

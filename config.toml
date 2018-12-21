@@ -92,6 +92,12 @@ disqusShortname = ""
     # Display your showcases here.
     
     [[params.tiles.showcase]]
+      title = "Twitter Bot"
+      subtitle = "A twitter bot that informs about new data sets on the open data portal of Hamburg"
+      image = "opendata.png"
+      url = "post/opendata"
+    
+    [[params.tiles.showcase]]
       title = "Data journalism with Spiegel Online"
       subtitle = "Projects I have worked on during my Google Fellowship with Spiegel Online"
       image = "schufa.png"
@@ -152,11 +158,11 @@ disqusShortname = ""
       image = "codingdurer_screenshot.jpg"
       url = "post/coding-dürer"
       
-    [[params.tiles.showcase]]
-      title = "Building a recommendation engine in R"
-      subtitle = "How to find similar products based on user histories?"
-      #image = "attribution01_small.png"
-      url = "post/reco-engine"
+    #[[params.tiles.showcase]]
+    #  title = "Building a recommendation engine in R"
+    #  subtitle = "How to find similar products based on user histories?"
+    #  #image = "attribution01_small.png"
+    #  url = "post/reco-engine"
    
    [[params.tiles.showcase]]
       title = "Marketing Attribution Modeling"
