@@ -61,6 +61,8 @@ Hi, my name is Alexander Kruse and I live in Hamburg-Germany. I do data analysis
  * Data processing: mostly some kind of [tidyverse](https://www.tidyverse.org/)
  
 ##Work experience: 
+ * Zeit Online, Data Analyst, 11.2018-present
+ * Spiegel Online, Fellowship Data Journalism, 08.2018-09.2018
  * etracker, Data Analyst, 09.2015-07.2018
  * Lufthansa Industry Solutions, Consulting Data Science, 06.2015-07.2015
  * PwC Forensic Data Analytics, Master thesis, 03.2014-09.2014
