@@ -6,10 +6,21 @@
     <description>Recent content in R on Alex Knows Data</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Airrohr Finedust Data Analysis</title>
+      <link>/post/finedust/</link>
+      <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/finedust/</guid>
+      <description>In einem Twitter thread habe ich über DIY Feinstaubsensoren berichtet. Hier der Inhalt:
+Laut airrohr Daten überschritten viele Hamburger Sensoren in 2018 regelmäßig den zulässigen PM10 Tagesmittelwert von 50 µg/m³. Beispiel: Am 23.11.18 (KW 47) überschritten 182 von 205 Sensoren (89%) den Grenzwert.
+Laut EU-Richtlinie sind max. 35 Grenzwertüberschreitungen pro Sensor und Jahr zulässig. Laut airrohr Daten überschritten in 2018 dennoch 43 Sensoren den Grenzwert häufiger als 35 Mal.</description>
+    </item>
     
     <item>
       <title>Twitter Bot Open Data Hamburg</title>

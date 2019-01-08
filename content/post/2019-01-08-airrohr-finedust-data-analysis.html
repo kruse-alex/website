@@ -1,0 +1,36 @@
+---
+title: Airrohr Finedust Data Analysis
+author: akruse
+date: '2019-01-08'
+slug: finedust
+categories:
+  - animation
+tags:
+  - R
+description: ''
+image: ''
+keywords: ''
+draft: no
+---
+
+
+
+<p>In einem <a href="https://twitter.com/krusealex2013/status/1082370131978846209">Twitter thread</a> habe ich über DIY Feinstaubsensoren berichtet. Hier der Inhalt:</p>
+<p>Laut <a href="https://twitter.com/airrohr">airrohr</a> Daten überschritten viele Hamburger Sensoren in 2018 regelmäßig den zulässigen PM10 Tagesmittelwert von 50 µg/m³. Beispiel: Am 23.11.18 (KW 47) überschritten 182 von 205 Sensoren (89%) den Grenzwert.</p>
+<div class="figure">
+<img src="/post/2019-01-08-airrohr-finedust-data-analysis_files/Rplot02.png" />
+
+</div>
+<p>Laut EU-Richtlinie sind max. 35 Grenzwertüberschreitungen pro Sensor und Jahr zulässig. Laut <a href="https://twitter.com/airrohr">airrohr</a> Daten überschritten in 2018 dennoch 43 Sensoren den Grenzwert häufiger als 35 Mal.</p>
+<div class="figure">
+<img src="/post/2019-01-08-airrohr-finedust-data-analysis_files/Rplot01.png" />
+
+</div>
+<p>Nun musste ich leider in einer <a href="http://www4.lubw.baden-wuerttemberg.de/servlet/is/268831/">wissenschaftlichen Veröffentlichung</a> herausfinden, dass die vom <a href="https://twitter.com/airrohr">airrohr</a> verwendeten SDS011-Sensoren nicht für eine zuverlässige Messung von Grenzwerten geeignet sind, da diese zu deutlichen Abweichungen bei hoher Luftfeuchtigkeit neigen. Auszug:</p>
+<div class="figure">
+<img src="/post/2019-01-08-airrohr-finedust-data-analysis_files/researcg.PNG" />
+
+</div>
+<p>Eine weitere <a href="https://www.researchgate.net/publication/325597697_Anwendungsmoglichkeiten_und_Grenzen_kostengunstiger_Feinstaubsensoren_Application_possibilities_and_limitations_of_low-cost_dust_sensors_1_Einleitung">wissenschaftliche Veröffentlichung</a> betont aber, dass der Vorteil der DIY Sensoren aber der niedrige Preis iat, der den Aufbau engmaschiger Netzwerke zur Erfassung der zeitlich-räumlichen Verteilung von Feinstaubkonzentrationen in Städten oder an Arbeitsplätzen erlaubt (Na also…back to work).</p>
+<p>Die beiden oberen Grafiken sind mit R und ggplot2 gemacht. Bei Bedarf gebe ich den Code gerne weiter.</p>
+<p>UPDATE: Wie ich aus der <span class="citation">@airrohr</span>](<a href="https://twitter.com/airrohr" class="uri">https://twitter.com/airrohr</a>) Community erfahre, bin ich etwas late-to-market. Im Datenblatt des SDS011-Sensors steht, dass der Arbeitsbereich des Sensors bei max. 70 % Luftfeuchtigkeit endet, Werte aber korrigiert werden können. <a href="https://github.com/opendata-stuttgart/meta/wiki/Luftfeuchte-Korrektur">Weitere Infos auf dem Github vom OK Lab Stuttgart</a>.</p>
