@@ -1,0 +1,24 @@
+---
+title: 'Generative art with #rstats'
+author: Alex
+date: '2019-06-17'
+slug: generative-art
+categories:
+  - animation
+tags:
+  - R
+description: ''
+image: ''
+keywords: ''
+draft: no
+---
+
+Playing around with [aschinchon](www.twitter.com/aschinchon) strange attractor algorithm. The original blog post can be found [here](https://fronkonstin.com/2019/01/10/rcpp-camaron-de-la-isla-and-the-beauty-of-maths/). My version of the code is on [my github](https://github.com/kruse-alex/strange_attractor). The code to create the artworks is embedded in a twitter bot which automatically post images with different parameters every hour.
+
+![](/post/2019-06-17-generative-art_files/Bildschirmfoto 2019-06-17 um 11.00.52.png)
+
+![](/post/2019-06-17-generative-art_files/Bildschirmfoto 2019-06-17 um 11.02.25.png)
+
+![](/post/2019-06-17-generative-art_files/Bildschirmfoto 2019-06-17 um 11.02.08.png)
+
+![](/post/2019-06-17-generative-art_files/Bildschirmfoto 2019-06-17 um 11.01.57.png)

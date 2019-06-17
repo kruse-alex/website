@@ -90,6 +90,18 @@ disqusShortname = ""
   [params.tiles]
     enable = true
     # Display your showcases here.
+
+    [[params.tiles.showcase]]
+      title = "Airrohr Workshop"
+      subtitle = "20 new finedust sensors with Zeit Online"
+      image = "zon_airrohr.jpg"
+      url = "post/zon-airrohr"
+      
+    [[params.tiles.showcase]]
+      title = "Generative art with #rstats"
+      subtitle = "Playing around with @aschinchon strange attractor algorithm"
+      image = "strange_attractor.png"
+      url = "post/generative-art"
     
     [[params.tiles.showcase]]
       title = "Airrohr Finedust Data Analysis"

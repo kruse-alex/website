@@ -6,10 +6,20 @@
     <description>Recent content in Animation on Alex Knows Data</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/animation/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Generative art with #rstats</title>
+      <link>/post/generative-art/</link>
+      <pubDate>Mon, 17 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/generative-art/</guid>
+      <description> Playing around with aschinchon strange attractor algorithm. The original blog post can be found here. My version of the code is on my github. The code to create the artworks is embedded in a twitter bot which automatically post images with different parameters every hour.
+    </description>
+    </item>
     
     <item>
       <title>Airrohr Finedust Data Analysis</title>
@@ -19,7 +29,7 @@
       <guid>/post/finedust/</guid>
       <description>In einem Twitter thread habe ich über DIY Feinstaubsensoren berichtet. Hier der Inhalt:
 Laut airrohr Daten überschritten viele Hamburger Sensoren in 2018 regelmäßig den zulässigen PM10 Tagesmittelwert von 50 µg/m³. Beispiel: Am 23.11.18 (KW 47) überschritten 182 von 205 Sensoren (89%) den Grenzwert.
-Laut EU-Richtlinie sind max. 35 Grenzwertüberschreitungen pro Sensor und Jahr zulässig. Laut airrohr Daten überschritten in 2018 dennoch 43 Sensoren den Grenzwert häufiger als 35 Mal.</description>
+ Laut EU-Richtlinie sind max. 35 Grenzwertüberschreitungen pro Sensor und Jahr zulässig. Laut airrohr Daten überschritten in 2018 dennoch 43 Sensoren den Grenzwert häufiger als 35 Mal.</description>
     </item>
     
     <item>
@@ -37,8 +47,8 @@ Laut airrohr Daten überschritten viele Hamburger Sensoren in 2018 regelmäßig 
       <pubDate>Tue, 11 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/ddj/</guid>
-      <description>Between August and September 2018 I had the chance to support some data journalism projects at Spiegel Online as part of my Google Fellowship. Here is a list of things I have worked on during my fellowship:
-Blackbox SchufaDeutschland sprichtAuswärtstorregel</description>
+      <description> Between August and September 2018 I had the chance to support some data journalism projects at Spiegel Online as part of my Google Fellowship. Here is a list of things I have worked on during my fellowship:
+ Blackbox Schufa Deutschland spricht Auswärtstorregel  </description>
     </item>
     
     <item>
