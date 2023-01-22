@@ -6,14 +6,23 @@
     <description>Recent content in Posts on Alex Knows Data</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Jun 2019 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>/post/2023-01-22-test/</link>
+      <pubDate>Sun, 22 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2023-01-22-test/</guid>
+      <description>This my newest post.</description>
+    </item>
+    
     <item>
       <title>20 New Finedust Sensors</title>
       <link>/post/zon-airrohr/</link>
       <pubDate>Mon, 17 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/zon-airrohr/</guid>
-      <description>Together with my colleagues at Zeit Online we build 20 new finedust sensors for the luftdaten.info project. I ordered most parts of the sensors via AliExpress so all the participants only have to pay 35 € for their sensor.
+      <description>Hiiii. Together with my colleagues at Zeit Online we build 20 new finedust sensors for the luftdaten.info project. I ordered most parts of the sensors via AliExpress so all the participants only have to pay 35 € for their sensor.
 I prepared some slides for the workshop. You can find them here.</description>
     </item>
     
