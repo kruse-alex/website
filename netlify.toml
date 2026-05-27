@@ -1,24 +1,3 @@
 [build]
   publish = "."
   command = ""
-
-# www → apex
-[[redirects]]
-  from = "https://www.alexknowsdata.com/*"
-  to   = "https://alexknowsdata.com/:splat"
-  status = 301
-  force  = true
-
-# http apex → https
-[[redirects]]
-  from = "http://alexknowsdata.com/*"
-  to   = "https://alexknowsdata.com/:splat"
-  status = 301
-  force  = true
-
-# http www → https apex
-[[redirects]]
-  from = "http://www.alexknowsdata.com/*"
-  to   = "https://alexknowsdata.com/:splat"
-  status = 301
-  force  = true
