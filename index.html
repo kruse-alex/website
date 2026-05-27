@@ -172,7 +172,6 @@
   /* FOOTER */
   footer { border-top: 1px solid var(--border); padding: 1.75rem 2rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
   .footer-brand { font-family: 'JetBrains Mono', monospace; font-size: 12.5px; color: var(--muted); }
-  .footer-brand span { color: var(--accent); }
   .footer-links { display: flex; gap: 1.5rem; }
   .footer-links a { color: var(--muted); font-size: 13px; transition: color .2s; }
   .footer-links a:hover { color: var(--text); }
@@ -213,120 +212,82 @@
 <section id="projects">
   <p class="section-label">// selected work</p>
   <h2 class="section-title">Projects</h2>
-  <p class="section-desc">ML products, data journalism, and visualizations — from newsroom to side projects.</p>
+  <p class="section-desc">ML products and visualizations — from newsroom to side projects.</p>
 
   <p class="sub-heading">Current · Der Spiegel</p>
-  <div class="featured-grid">
-
-    <a href="https://medium.com/data-science/making-news-recommendations-explainable-with-large-language-models-74f119c7e036" target="_blank" rel="noopener" class="featured-card">
-      <span class="featured-badge">featured</span>
-      <div class="featured-card-top">
-        <div class="featured-icon">🤖</div>
-        <span class="card-arrow">↗</span>
+  <div class="list-block">
+    <a href="https://medium.com/data-science/making-news-recommendations-explainable-with-large-language-models-74f119c7e036" target="_blank" rel="noopener" class="list-item">
+      <div class="list-meta">
+        <div class="list-title">News Recommendation System</div>
+        <div class="list-where">Python · LLMs · Azure · Databricks</div>
       </div>
-      <div class="featured-title">News Recommendation System</div>
-      <div class="featured-desc">ML-powered content recommendations for spiegel.de, including LLM-based explainability so editors can understand and trust what the model surfaces.</div>
-      <div class="tags">
-        <span class="tag blue">Python</span><span class="tag">Scikit-learn</span><span class="tag blue">LLMs</span><span class="tag">Azure</span><span class="tag">Databricks</span>
-      </div>
+      <div class="list-right"><span class="list-arrow">↗</span></div>
     </a>
-
-    <a href="https://medium.com/@helloheld/how-der-spiegel-uses-machine-learning-to-identify-its-most-valuable-potential-subscribers-8af4007d3a66" target="_blank" rel="noopener" class="featured-card">
-      <span class="featured-badge">featured</span>
-      <div class="featured-card-top">
-        <div class="featured-icon">📈</div>
-        <span class="card-arrow">↗</span>
+    <a href="https://medium.com/@helloheld/how-der-spiegel-uses-machine-learning-to-identify-its-most-valuable-potential-subscribers-8af4007d3a66" target="_blank" rel="noopener" class="list-item">
+      <div class="list-meta">
+        <div class="list-title">Subscriber Prediction & CLV</div>
+        <div class="list-where">Python · Spark · Databricks</div>
       </div>
-      <div class="featured-title">Subscriber Prediction & CLV</div>
-      <div class="featured-desc">ML model to identify high-value potential subscribers among millions of readers — used to prioritize paywall nudges and marketing spend.</div>
-      <div class="tags">
-        <span class="tag blue">Python</span><span class="tag">Spark</span><span class="tag">Databricks</span><span class="tag green">Subscriptions</span>
-      </div>
+      <div class="list-right"><span class="list-arrow">↗</span></div>
     </a>
-
-    <a href="https://theaudiencers.com/how-we-measure-audience-engagement-at-der-spiegel/" target="_blank" rel="noopener" class="featured-card">
-      <span class="featured-badge">featured</span>
-      <div class="featured-card-top">
-        <div class="featured-icon">💡</div>
-        <span class="card-arrow">↗</span>
+    <a href="https://theaudiencers.com/how-we-measure-audience-engagement-at-der-spiegel/" target="_blank" rel="noopener" class="list-item">
+      <div class="list-meta">
+        <div class="list-title">Engagement Scoring</div>
+        <div class="list-where">Python · SQL · A/B Testing</div>
       </div>
-      <div class="featured-title">Engagement Scoring</div>
-      <div class="featured-desc">A depth-and-loyalty score applied across editorial and product at Der Spiegel — not just page views. Powers A/B tests, segmentation, and audience research.</div>
-      <div class="tags">
-        <span class="tag blue">Python</span><span class="tag">SQL</span><span class="tag green">Audience</span>
-      </div>
+      <div class="list-right"><span class="list-arrow">↗</span></div>
     </a>
-
   </div>
 
-  <p class="sub-heading" style="margin-top:2rem;">Data journalism & visualization</p>
-  <div class="projects-grid">
-
-    <a href="/posts/marathon-hamburg.html" class="project-card">
-      <div class="project-card-top">
-        <div style="font-size:17px;">🏃</div>
-        <span class="card-arrow">↗</span>
+  <p class="sub-heading">Data viz work</p>
+  <div class="list-block">
+    <a href="/posts/marathon-hamburg.html" class="list-item">
+      <div class="list-meta">
+        <div class="list-title">Hamburg Marathon 2018</div>
+        <div class="list-where">R · gganimate</div>
       </div>
-      <div class="project-title">Hamburg Marathon 2018</div>
-      <div class="project-desc">Animated visualization of every runner's pace using gganimate.</div>
-      <div class="tags"><span class="tag blue">R</span><span class="tag">gganimate</span><span class="tag orange">dataviz</span></div>
+      <div class="list-right"><span class="list-year">2018</span><span class="list-arrow">↗</span></div>
     </a>
-
-    <a href="/posts/finedust.html" class="project-card">
-      <div class="project-card-top">
-        <div style="font-size:17px;">🌫️</div>
-        <span class="card-arrow">↗</span>
+    <a href="/posts/finedust.html" class="list-item">
+      <div class="list-meta">
+        <div class="list-title">Airrohr Fine Dust Analysis</div>
+        <div class="list-where">R · ggplot2 · Open Data</div>
       </div>
-      <div class="project-title">Airrohr Fine Dust Analysis</div>
-      <div class="project-desc">Sensor data analysis from Hamburg 2018 + workshop with Zeit Online deploying 20 new sensors across the city.</div>
-      <div class="tags"><span class="tag blue">R</span><span class="tag">ggplot2</span><span class="tag green">Open Data</span></div>
+      <div class="list-right"><span class="list-year">2019</span><span class="list-arrow">↗</span></div>
     </a>
-
-    <a href="/posts/stadtrad.html" class="project-card">
-      <div class="project-card-top">
-        <div style="font-size:17px;">🗺️</div>
-        <span class="card-arrow">↗</span>
+    <a href="/posts/stadtrad.html" class="list-item">
+      <div class="list-meta">
+        <div class="list-title">Bike Sharing Hamburg</div>
+        <div class="list-where">R · Leaflet</div>
       </div>
-      <div class="project-title">Bike Sharing Hamburg</div>
-      <div class="project-desc">Interactive Leaflet map of StadtRAD usage patterns across Hamburg.</div>
-      <div class="tags"><span class="tag blue">R</span><span class="tag">Leaflet</span><span class="tag orange">Interactive</span></div>
+      <div class="list-right"><span class="list-year">2018</span><span class="list-arrow">↗</span></div>
     </a>
-
-    <a href="/posts/ddj.html" class="project-card">
-      <div class="project-card-top">
-        <div style="font-size:17px;">📰</div>
-        <span class="card-arrow">↗</span>
+    <a href="/posts/ddj.html" class="list-item">
+      <div class="list-meta">
+        <div class="list-title">Google News Fellowship @ Spiegel Online</div>
+        <div class="list-where">R · D3.js</div>
       </div>
-      <div class="project-title">Data Journalism @ Spiegel Online</div>
-      <div class="project-desc">Stories built during the Google News Fellowship, including the SCHUFA data investigation.</div>
-      <div class="tags"><span class="tag blue">R</span><span class="tag">D3.js</span><span class="tag green">Journalism</span></div>
+      <div class="list-right"><span class="list-year">2018</span><span class="list-arrow">↗</span></div>
     </a>
-
-    <a href="/posts/generative-art.html" class="project-card">
-      <div class="project-card-top">
-        <div style="font-size:17px;">🎨</div>
-        <span class="card-arrow">↗</span>
+    <a href="/posts/generative-art.html" class="list-item">
+      <div class="list-meta">
+        <div class="list-title">Generative Art with R</div>
+        <div class="list-where">R · strange attractors</div>
       </div>
-      <div class="project-title">Generative Art with R</div>
-      <div class="project-desc">Strange attractor algorithms turned into artwork — because data doesn't have to be serious.</div>
-      <div class="tags"><span class="tag blue">R</span><span class="tag">generative</span><span class="tag orange">creative</span></div>
+      <div class="list-right"><span class="list-year">2019</span><span class="list-arrow">↗</span></div>
     </a>
-
-    <a href="/posts/attribution.html" class="project-card">
-      <div class="project-card-top">
-        <div style="font-size:17px;">🔀</div>
-        <span class="card-arrow">↗</span>
+    <a href="/posts/attribution.html" class="list-item">
+      <div class="list-meta">
+        <div class="list-title">Marketing Attribution Modeling</div>
+        <div class="list-where">R · Markov chains</div>
       </div>
-      <div class="project-title">Marketing Attribution Modeling</div>
-      <div class="project-desc">Algorithmic multi-touch attribution via Markov chains — moving clients beyond last-click at etracker.</div>
-      <div class="tags"><span class="tag blue">R</span><span class="tag">Markov chains</span><span class="tag green">Marketing</span></div>
+      <div class="list-right"><span class="list-year">2018</span><span class="list-arrow">↗</span></div>
     </a>
-
   </div>
 
   <div class="archive-block">
     <button class="archive-toggle" onclick="toggleArchive(this)">
-      <span>More projects (older work)</span>
+      <span>More older work</span>
       <span class="archive-toggle-icon">▾</span>
     </button>
     <div class="archive-list">
@@ -408,14 +369,14 @@
         <div class="list-title">Making News Recommendations Explainable with Large Language Models</div>
         <div class="list-where">Towards Data Science</div>
       </div>
-      <div class="list-right"><span class="badge tds">TDS</span><span class="list-year">2024</span><span class="list-arrow">↗</span></div>
+      <div class="list-right"><span class="list-year">2024</span><span class="list-arrow">↗</span></div>
     </a>
     <a href="https://medium.com/data-science/a-mixed-methods-approach-to-offline-evaluation-of-news-recommender-systems-7dc7e9f0b501" target="_blank" rel="noopener" class="list-item">
       <div class="list-meta">
         <div class="list-title">A Mixed-Methods Approach to Offline Evaluation of News Recommender Systems</div>
         <div class="list-where">Towards Data Science</div>
       </div>
-      <div class="list-right"><span class="badge tds">TDS</span><span class="list-year">2024</span><span class="list-arrow">↗</span></div>
+      <div class="list-right"><span class="list-year">2024</span><span class="list-arrow">↗</span></div>
     </a>
   </div>
 
@@ -426,21 +387,21 @@
         <div class="list-title">How We Measure Audience Engagement at DER SPIEGEL</div>
         <div class="list-where">theaudiencers.com</div>
       </div>
-      <div class="list-right"><span class="badge article">article</span><span class="list-arrow">↗</span></div>
+      <div class="list-right"><span class="list-arrow">↗</span></div>
     </a>
     <a href="https://theaudiencers.com/audience-research-identifying-key-engagement-drivers-at-der-spiegel/" target="_blank" rel="noopener" class="list-item">
       <div class="list-meta">
         <div class="list-title">Audience Research: Identifying Key Engagement Drivers at DER SPIEGEL</div>
         <div class="list-where">theaudiencers.com</div>
       </div>
-      <div class="list-right"><span class="badge article">article</span><span class="list-arrow">↗</span></div>
+      <div class="list-right"><span class="list-arrow">↗</span></div>
     </a>
     <a href="https://theaudiencers.com/how-der-spiegel-uses-its-engagement-score-our-key-use-cases/" target="_blank" rel="noopener" class="list-item">
       <div class="list-meta">
         <div class="list-title">How DER SPIEGEL Uses Its Engagement Score: Our Key Use Cases</div>
         <div class="list-where">theaudiencers.com</div>
       </div>
-      <div class="list-right"><span class="badge article">article</span><span class="list-arrow">↗</span></div>
+      <div class="list-right"><span class="list-arrow">↗</span></div>
     </a>
   </div>
 
@@ -451,21 +412,21 @@
         <div class="list-title">Identifying Valuable Potential Subscribers Through Data</div>
         <div class="list-where">INMA Smart Data Initiative Webinar</div>
       </div>
-      <div class="list-right"><span class="badge talk">talk</span><span class="list-year">2023</span><span class="list-arrow">↗</span></div>
+      <div class="list-right"><span class="list-year">2023</span><span class="list-arrow">↗</span></div>
     </a>
     <a href="https://wan-ifra.org/events/how-der-spiegel-uses-machine-learning-to-identify-its-most-valuable-potential-subscribers/" target="_blank" rel="noopener" class="list-item">
       <div class="list-meta">
         <div class="list-title">How Der Spiegel Uses ML to Identify Its Most Valuable Potential Subscribers</div>
         <div class="list-where">WAN-IFRA</div>
       </div>
-      <div class="list-right"><span class="badge talk">talk</span><span class="list-year">2023</span><span class="list-arrow">↗</span></div>
+      <div class="list-right"><span class="list-year">2023</span><span class="list-arrow">↗</span></div>
     </a>
     <a href="https://mvfp-akademie.de/experte/alexander-held/" target="_blank" rel="noopener" class="list-item">
       <div class="list-meta">
         <div class="list-title">AI in Press and Digital Distribution</div>
         <div class="list-where">MVFP Akademie / DNV Joint Webinar</div>
       </div>
-      <div class="list-right"><span class="badge talk">talk</span><span class="list-year">2023</span><span class="list-arrow">↗</span></div>
+      <div class="list-right"><span class="list-year">2023</span><span class="list-arrow">↗</span></div>
     </a>
   </div>
 
@@ -476,56 +437,56 @@
         <div class="list-title">A Digital Map of DER SPIEGEL's 2023 Journalism</div>
         <div class="list-where">Medium · @helloheld</div>
       </div>
-      <div class="list-right"><span class="badge article">article</span><span class="list-year">2023</span><span class="list-arrow">↗</span></div>
+      <div class="list-right"><span class="list-year">2023</span><span class="list-arrow">↗</span></div>
     </a>
     <a href="https://medium.com/@helloheld/using-openai-and-machine-learning-to-discover-news-topic-preferences-57fe5f383244" target="_blank" rel="noopener" class="list-item">
       <div class="list-meta">
         <div class="list-title">Using OpenAI and Machine Learning to Discover News Topic Preferences</div>
         <div class="list-where">Medium · @helloheld</div>
       </div>
-      <div class="list-right"><span class="badge article">article</span><span class="list-year">2023</span><span class="list-arrow">↗</span></div>
+      <div class="list-right"><span class="list-year">2023</span><span class="list-arrow">↗</span></div>
     </a>
     <a href="https://medium.com/@helloheld/how-der-spiegel-uses-machine-learning-to-identify-its-most-valuable-potential-subscribers-8af4007d3a66" target="_blank" rel="noopener" class="list-item">
       <div class="list-meta">
         <div class="list-title">How Der Spiegel Uses ML To Identify Its Most Valuable Potential Subscribers</div>
         <div class="list-where">Medium · @helloheld</div>
       </div>
-      <div class="list-right"><span class="badge article">article</span><span class="list-year">2022</span><span class="list-arrow">↗</span></div>
+      <div class="list-right"><span class="list-year">2022</span><span class="list-arrow">↗</span></div>
     </a>
     <a href="https://medium.com/@helloheld/combining-user-research-data-science-methods-e6fb9bbff369" target="_blank" rel="noopener" class="list-item">
       <div class="list-meta">
         <div class="list-title">Combining User Research & Data Science Methods</div>
         <div class="list-where">Medium · @helloheld</div>
       </div>
-      <div class="list-right"><span class="badge article">article</span><span class="list-year">2022</span><span class="list-arrow">↗</span></div>
+      <div class="list-right"><span class="list-year">2022</span><span class="list-arrow">↗</span></div>
     </a>
     <a href="https://medium.com/@helloheld/an-in-depth-reading-experience-7528c090f06d" target="_blank" rel="noopener" class="list-item">
       <div class="list-meta">
         <div class="list-title">An In-Depth Reading Experience</div>
         <div class="list-where">Medium · @helloheld</div>
       </div>
-      <div class="list-right"><span class="badge article">article</span><span class="list-year">2022</span><span class="list-arrow">↗</span></div>
+      <div class="list-right"><span class="list-year">2022</span><span class="list-arrow">↗</span></div>
     </a>
     <a href="https://medium.com/@helloheld/the-power-of-long-tail-302e7ea02fa8" target="_blank" rel="noopener" class="list-item">
       <div class="list-meta">
         <div class="list-title">The Power of Long Tail</div>
         <div class="list-where">Medium · @helloheld</div>
       </div>
-      <div class="list-right"><span class="badge article">article</span><span class="list-year">2022</span><span class="list-arrow">↗</span></div>
+      <div class="list-right"><span class="list-year">2022</span><span class="list-arrow">↗</span></div>
     </a>
     <a href="https://medium.com/@helloheld/a-fair-evaluation-of-audience-reach-e9a781537276" target="_blank" rel="noopener" class="list-item">
       <div class="list-meta">
         <div class="list-title">A Fair Evaluation of Audience Reach</div>
         <div class="list-where">Medium · @helloheld</div>
       </div>
-      <div class="list-right"><span class="badge article">article</span><span class="list-year">2022</span><span class="list-arrow">↗</span></div>
+      <div class="list-right"><span class="list-year">2022</span><span class="list-arrow">↗</span></div>
     </a>
     <a href="https://medium.com/@helloheld/nutzung-von-open-data-im-rahmen-der-radverkehrsstrategie-9cf85a813c48" target="_blank" rel="noopener" class="list-item">
       <div class="list-meta">
         <div class="list-title">Nutzung von Open Data im Rahmen der Radverkehrsstrategie</div>
         <div class="list-where">Medium · @helloheld</div>
       </div>
-      <div class="list-right"><span class="badge article">article</span><span class="list-year">2017</span><span class="list-arrow">↗</span></div>
+      <div class="list-right"><span class="list-year">2017</span><span class="list-arrow">↗</span></div>
     </a>
   </div>
 
@@ -568,7 +529,7 @@
       <div class="skill-group">
         <div class="skill-label">Current stack</div>
         <div class="tags">
-          <span class="tag blue">Python</span><span class="tag blue">R</span><span class="tag">SQL</span><span class="tag">Scikit-learn</span><span class="tag">Spark</span><span class="tag blue">LLMs</span><span class="tag">Azure</span><span class="tag">Azure DevOps</span><span class="tag">Databricks</span><span class="tag">Docker</span><span class="tag">AWS</span><span class="tag">A/B Testing</span><span class="tag">JavaScript</span><span class="tag">Web Analytics</span>
+          <span class="tag">Python</span><span class="tag">R</span><span class="tag">SQL</span><span class="tag">Scikit-learn</span><span class="tag">Spark</span><span class="tag">LLMs</span><span class="tag">Azure</span><span class="tag">Azure DevOps</span><span class="tag">Databricks</span><span class="tag">Docker</span><span class="tag">AWS</span><span class="tag">A/B Testing</span><span class="tag">JavaScript</span><span class="tag">Web Analytics</span>
         </div>
       </div>
     </div>
@@ -576,7 +537,7 @@
 </section>
 
 <footer>
-  <div class="footer-brand"><span>alexander</span>@held · Hamburg, Germany</div>
+  <div class="footer-brand">alexander@held · Hamburg, Germany</div>
   <div class="footer-links">
     <a href="https://www.linkedin.com/in/alex-held-1193b9234/" target="_blank" rel="noopener">LinkedIn</a>
     <a href="https://medium.com/@helloheld" target="_blank" rel="noopener">Medium</a>
