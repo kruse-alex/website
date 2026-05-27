@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bike Sharing in Hamburg — Alexander Held</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root { --bg: #0d1117; --bg2: #161b22; --border: #30363d; --text: #e6edf3; --muted: #8b949e; --accent: #58a6ff; }
+  body { background: var(--bg); color: var(--text); font-family: 'Inter', system-ui, sans-serif; font-size: 15px; line-height: 1.7; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  nav { position: sticky; top: 0; z-index: 100; background: rgba(13,17,23,.9); backdrop-filter: blur(14px); border-bottom: 1px solid var(--border); padding: 0 2rem; display: flex; align-items: center; height: 56px; }
+  .nav-brand { font-family: 'JetBrains Mono', monospace; font-size: 13px; color: var(--accent); }
+  .nav-back { margin-left: auto; font-size: 13px; color: var(--muted); }
+  .nav-back:hover { color: var(--text); }
+  .post { max-width: 720px; margin: 0 auto; padding: 64px 2rem 96px; }
+  .post-meta { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--muted); margin-bottom: 1.5rem; }
+  .post h1 { font-size: clamp(1.6rem, 4vw, 2.4rem); font-weight: 600; letter-spacing: -.02em; line-height: 1.2; margin-bottom: .75rem; }
+  .post-content { margin-top: 2.5rem; }
+  .post-content p { color: var(--muted); margin-bottom: 1.25rem; }
+  .post-content h2 { font-size: 1.2rem; font-weight: 600; margin: 2rem 0 .75rem; }
+  .post-content h3 { font-size: 1rem; font-weight: 600; margin: 1.5rem 0 .5rem; }
+  .post-content img { max-width: 100%; border-radius: 6px; margin: 1.5rem 0; border: 1px solid var(--border); }
+  .post-content .figure { margin: 1.5rem 0; }
+  .post-content pre { background: var(--bg2); border: 1px solid var(--border); border-radius: 6px; padding: 1.25rem; overflow-x: auto; margin: 1.25rem 0; }
+  .post-content code { font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #e6edf3; }
+  .post-content p code { background: var(--bg2); padding: .1rem .35rem; border-radius: 3px; border: 1px solid var(--border); font-size: 12.5px; }
+  .post-content ul, .post-content ol { color: var(--muted); padding-left: 1.5rem; margin-bottom: 1.25rem; }
+  .post-content li { margin-bottom: .35rem; }
+  .post-content table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 13.5px; }
+  .post-content th { background: var(--bg2); padding: .6rem .75rem; text-align: left; font-weight: 500; border: 1px solid var(--border); }
+  .post-content td { padding: .55rem .75rem; border: 1px solid var(--border); color: var(--muted); }
+  footer { border-top: 1px solid var(--border); padding: 1.5rem 2rem; text-align: center; font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--muted); }
+  footer a { color: var(--accent); }
+</style>
+</head>
+<body>
+<nav>
+  <a href="/" class="nav-brand">alexander@held:~$</a>
+  <a href="/" class="nav-back">← Back</a>
+</nav>
+<div class="post">
+  <div class="post-meta">R · 2018-05-23</div>
+  <h1>Bike Sharing in Hamburg</h1>
+  <div class="post-content">
+    <p>Read an article on the usage of open data for bicycle traffic planning on <a href="https://medium.com/@alex_kruse/nutzung-von-open-data-im-rahmen-der-radverkehrsstrategie-9cf85a813c48">my Medium</a> (in German).</p>
+<div id="some-important-information-on-this-project" class="section level2">
+<h2>Some important information on this project:</h2>
+<ul>
+<li>Data: <a href="http://data.deutschebahn.com/dataset/data-call-a-bike" class="uri">http://data.deutschebahn.com/dataset/data-call-a-bike</a></li>
+<li>Use the map here: <a href="https://alexkruse.shinyapps.io/stadtrad/" class="uri">https://alexkruse.shinyapps.io/stadtrad/</a></li>
+<li>I created a <a href="https://github.com/kruse-alex/bike_sharing/blob/master/Kruse_poster-session.pdf">Poster</a> for <a href="https://user2017.brussels/posters">useR 2017</a> Poster Session and done a <a href="https://github.com/kruse-alex/osm_brussels">workshop</a> for <a href="https://www.eventbrite.com/e/open-bike-data-mapping-with-openstreetmap-registration-34806438996">OpenStreetMap</a>.</li>
+</ul>
+<p>My interactive map shows the bike sharing usage of StadtRAD, the bike sharing system in Hamburg – Germany. The data is available on the open data platform from Deutsche Bahn, the public railway company in Germany. The last new StadtRAD station was put into operation in May 2016, that is why a have chosen to display the usage of June 2016. The brighter the lines, the more bikes have been cycled along that street.</p>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/kruse-alex/website/master/public/post/2018-05-23-bike-sharing-in-hamburg_files/bike_usage_HH.png" />
+
+</div>
+<p>From data processing and spatial analysis to visualization the whole project was done in R. I have used <a href="https://rstudio.github.io/leaflet/">leaflet</a> and <a href="https://shiny.rstudio.com/">shiny</a> to display the data interactively. The bikes themselves don't have GPS, so the routes are estimated on a shortest route basis using the awesome <a href="https://www.cyclestreets.net/api/">CycleStreets API</a>. The biggest challenge has been the aggregation of overlapping routes. I found the overline function from the <a href="https://github.com/ropensci/stplanr">stplanr package</a> very helpful. It converts a series of overlaying lines and aggregates their values for overlapping segments. The raw data file from Deutsche Bahn is quite huge so I struggled to import the data into R to process it. In the end the read.csv.sql function from the <a href="https://cran.r-project.org/web/packages/sqldf/sqldf.pdf">sqldf package</a> did the job.</p>
+<p>To further analyze the StadtRAD data I also took the full booking data from 2016 and did some diagrams. The first one is a calendar heatmap where you can see the amount of rented bikes aggregated on a daily basis. On the top of the graph you can see a barplot representing the rented bikes aggregated by the day of week. On the right you see a barplot to display the StadtRAD usage for each calendar week of 2016. The idea to use calendar heatmaps to display bike sharing usage comes from <a href="http://infovis-mannheim.de/viavelox/">Via Velox</a>. The code to create this heatmap is also in this Repo.</p>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/kruse-alex/website/master/public/post/2018-05-23-bike-sharing-in-hamburg_files/superheat.png" />
+
+</div>
+<p>I also created joyplots with ggplot to display and analyze the data. The first one shows the daily usage of every weekday. You can see big differences between working days and the weekend.</p>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/kruse-alex/website/master/public/post/2018-05-23-bike-sharing-in-hamburg_files/joyplot_dayofweek-time.png" />
+
+</div>
+<p>The next diagram shows the daily usage per month. You can see that people renting bikes earlier in the summer.</p>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/kruse-alex/website/master/public/post/2018-05-23-bike-sharing-in-hamburg_files/joyplot_month-time.png" />
+
+</div>
+<p>The last diagram shows the differences between the months on a daily basis. You can see that people were not using StadtRAD a lot during chrismas.</p>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/kruse-alex/website/master/public/post/2018-05-23-bike-sharing-in-hamburg_files/joyplot_month-weekdays.png" />
+
+</div>
+<p>You can fine the code on <a href="https://github.com/kruse-alex/bike_sharing">my Github</a>.</p>
+</div>
+  </div>
+</div>
+<footer><a href="/">alexknowsdata.com</a></footer>
+</body>
+</html>

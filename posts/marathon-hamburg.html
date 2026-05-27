@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marathon Hamburg — Alexander Held</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root { --bg: #0d1117; --bg2: #161b22; --border: #30363d; --text: #e6edf3; --muted: #8b949e; --accent: #58a6ff; }
+  body { background: var(--bg); color: var(--text); font-family: 'Inter', system-ui, sans-serif; font-size: 15px; line-height: 1.7; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  nav { position: sticky; top: 0; z-index: 100; background: rgba(13,17,23,.9); backdrop-filter: blur(14px); border-bottom: 1px solid var(--border); padding: 0 2rem; display: flex; align-items: center; height: 56px; }
+  .nav-brand { font-family: 'JetBrains Mono', monospace; font-size: 13px; color: var(--accent); }
+  .nav-back { margin-left: auto; font-size: 13px; color: var(--muted); }
+  .nav-back:hover { color: var(--text); }
+  .post { max-width: 720px; margin: 0 auto; padding: 64px 2rem 96px; }
+  .post-meta { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--muted); margin-bottom: 1.5rem; }
+  .post h1 { font-size: clamp(1.6rem, 4vw, 2.4rem); font-weight: 600; letter-spacing: -.02em; line-height: 1.2; margin-bottom: .75rem; }
+  .post-content { margin-top: 2.5rem; }
+  .post-content p { color: var(--muted); margin-bottom: 1.25rem; }
+  .post-content h2 { font-size: 1.2rem; font-weight: 600; margin: 2rem 0 .75rem; }
+  .post-content h3 { font-size: 1rem; font-weight: 600; margin: 1.5rem 0 .5rem; }
+  .post-content img { max-width: 100%; border-radius: 6px; margin: 1.5rem 0; border: 1px solid var(--border); }
+  .post-content .figure { margin: 1.5rem 0; }
+  .post-content pre { background: var(--bg2); border: 1px solid var(--border); border-radius: 6px; padding: 1.25rem; overflow-x: auto; margin: 1.25rem 0; }
+  .post-content code { font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #e6edf3; }
+  .post-content p code { background: var(--bg2); padding: .1rem .35rem; border-radius: 3px; border: 1px solid var(--border); font-size: 12.5px; }
+  .post-content ul, .post-content ol { color: var(--muted); padding-left: 1.5rem; margin-bottom: 1.25rem; }
+  .post-content li { margin-bottom: .35rem; }
+  .post-content table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 13.5px; }
+  .post-content th { background: var(--bg2); padding: .6rem .75rem; text-align: left; font-weight: 500; border: 1px solid var(--border); }
+  .post-content td { padding: .55rem .75rem; border: 1px solid var(--border); color: var(--muted); }
+  footer { border-top: 1px solid var(--border); padding: 1.5rem 2rem; text-align: center; font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--muted); }
+  footer a { color: var(--accent); }
+</style>
+</head>
+<body>
+<nav>
+  <a href="/" class="nav-brand">alexander@held:~$</a>
+  <a href="/" class="nav-back">← Back</a>
+</nav>
+<div class="post">
+  <div class="post-meta">R · 2018-05-22</div>
+  <h1>Marathon Hamburg</h1>
+  <div class="post-content">
+    <p>I came across <a href="https://interaktiv.morgenpost.de/berlin-marathon-2017/">this cool piece</a> of data vizualization from the folks of Berliner Morgenpost. I thought it would be nice to re-create the whole visualization for the Hamburg Marathon 2018. I came up with a complete R-based solution. The animated visualiaztion itself is made out of multiple ggplot outputs.</p>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/kruse-alex/website/master/public/post/2018-05-22-marathon-hamburg_files/marathon.gif" />
+
+</div>
+<p>I also analyzed the gender differences at the Hamburg Marathon 2018. I would say it is a proper misuse of error bars :) It is the same thing here, I just put together multiple ggplot outputs into a gif. I also tried out violin plots but they did not seem to work in an animated visualization because all runners are at the same position at the start which completly distroys the scale and y-axis.</p>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/kruse-alex/website/master/public/post/2018-05-22-marathon-hamburg_files/marathon_gender.gif" />
+
+</div>
+<p>As always, you can find the code for both visualizations on <a href="https://github.com/kruse-alex/marathon">my Github</a>.</p>
+  </div>
+</div>
+<footer><a href="/">alexknowsdata.com</a></footer>
+</body>
+</html>

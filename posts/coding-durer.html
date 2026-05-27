@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Coding Dürer — Alexander Held</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root { --bg: #0d1117; --bg2: #161b22; --border: #30363d; --text: #e6edf3; --muted: #8b949e; --accent: #58a6ff; }
+  body { background: var(--bg); color: var(--text); font-family: 'Inter', system-ui, sans-serif; font-size: 15px; line-height: 1.7; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  nav { position: sticky; top: 0; z-index: 100; background: rgba(13,17,23,.9); backdrop-filter: blur(14px); border-bottom: 1px solid var(--border); padding: 0 2rem; display: flex; align-items: center; height: 56px; }
+  .nav-brand { font-family: 'JetBrains Mono', monospace; font-size: 13px; color: var(--accent); }
+  .nav-back { margin-left: auto; font-size: 13px; color: var(--muted); }
+  .nav-back:hover { color: var(--text); }
+  .post { max-width: 720px; margin: 0 auto; padding: 64px 2rem 96px; }
+  .post-meta { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--muted); margin-bottom: 1.5rem; }
+  .post h1 { font-size: clamp(1.6rem, 4vw, 2.4rem); font-weight: 600; letter-spacing: -.02em; line-height: 1.2; margin-bottom: .75rem; }
+  .post-content { margin-top: 2.5rem; }
+  .post-content p { color: var(--muted); margin-bottom: 1.25rem; }
+  .post-content h2 { font-size: 1.2rem; font-weight: 600; margin: 2rem 0 .75rem; }
+  .post-content h3 { font-size: 1rem; font-weight: 600; margin: 1.5rem 0 .5rem; }
+  .post-content img { max-width: 100%; border-radius: 6px; margin: 1.5rem 0; border: 1px solid var(--border); }
+  .post-content .figure { margin: 1.5rem 0; }
+  .post-content pre { background: var(--bg2); border: 1px solid var(--border); border-radius: 6px; padding: 1.25rem; overflow-x: auto; margin: 1.25rem 0; }
+  .post-content code { font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #e6edf3; }
+  .post-content p code { background: var(--bg2); padding: .1rem .35rem; border-radius: 3px; border: 1px solid var(--border); font-size: 12.5px; }
+  .post-content ul, .post-content ol { color: var(--muted); padding-left: 1.5rem; margin-bottom: 1.25rem; }
+  .post-content li { margin-bottom: .35rem; }
+  .post-content table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 13.5px; }
+  .post-content th { background: var(--bg2); padding: .6rem .75rem; text-align: left; font-weight: 500; border: 1px solid var(--border); }
+  .post-content td { padding: .55rem .75rem; border: 1px solid var(--border); color: var(--muted); }
+  footer { border-top: 1px solid var(--border); padding: 1.5rem 2rem; text-align: center; font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--muted); }
+  footer a { color: var(--accent); }
+</style>
+</head>
+<body>
+<nav>
+  <a href="/" class="nav-brand">alexander@held:~$</a>
+  <a href="/" class="nav-back">← Back</a>
+</nav>
+<div class="post">
+  <div class="post-meta">R · 2018-05-23</div>
+  <h1>Coding Dürer</h1>
+  <div class="post-content">
+    <p>Recently I took part at <a href="http://codingdurer.de/">codingdurer</a>, a five days international and interdisciplinary hackathon for art history and information science. The goal of this hackathon is to bring art historians and information scientists together to work on data. It is kind of an extension to the cultural hackathon <a href="https://codingdavinci.de/">CodingDaVinci</a> where I participated in the past. I also wrote an article about CDV on this blog.</p>
+<p>At CodingDurer we developed a Shiny App to explore the genre of church interior paintings developed in the Netherlands in the middle of the 17th century. There are hundreds of church interior paintings scattered across collections around the world. The research of this subject to date has focused mainly on particular artists or churches, rather than the overall genre and its network of artists and places. This project, born during the Coding Durer 2017, addresses this issue by providing a platform for further research on the paintings and creating an insight into the bigger picture of the genre for the first time. This visualization of over 200 paintings of 26 different churches by 16 different artists was created with the following research questions in mind:</p>
+<ul>
+<li>In what places the artists were active and in what places did they depict church interior(s)?</li>
+<li>Did the artists have 'favourite' church interiors?</li>
+<li>In what places and when would the artists possibly meet?</li>
+<li>What church interiors were depicted the most?</li>
+<li>What church interiors were depicted by most artists?</li>
+</ul>
+<p>The starting point of the project was a spreadsheet listing the paintings, artists, collections, etc. that was created for research purposes two years ago. This re-purposed data needed cleaning and additional information, e.g. IDs (artists, churches, paintings), locations (longitude, latitude), and stable URLs for images.</p>
+<ul>
+<li>Interactive Web App to discover and analyze Dutch Interior Church Paintings.</li>
+<li>Check out the App: <a href="https://alexkruse.shinyapps.io/dutchchurch/" class="uri">https://alexkruse.shinyapps.io/dutchchurch/</a></li>
+</ul>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/kruse-alex/website/master/public/post/2018-05-23-coding-dürer_files/codingdurer_screenshot.jpg" />
+
+</div>
+<p>You can find the code for the shiny app on <a href="https://github.com/kruse-alex/codingdurer">my Github</a>.</p>
+  </div>
+</div>
+<footer><a href="/">alexknowsdata.com</a></footer>
+</body>
+</html>

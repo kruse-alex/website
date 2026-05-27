@@ -1,5 +1,23 @@
-[context.production.environment]
-  HUGO_VERSION = "0.31"
+[build]
+  publish = "."
 
-[context.deploy-preview.environment]
-  HUGO_VERSION = "0.31"
+# www → apex
+[[redirects]]
+  from = "https://www.alexknowsdata.com/*"
+  to   = "https://alexknowsdata.com/:splat"
+  status = 301
+  force  = true
+
+# http apex → https
+[[redirects]]
+  from = "http://alexknowsdata.com/*"
+  to   = "https://alexknowsdata.com/:splat"
+  status = 301
+  force  = true
+
+# http www → https apex
+[[redirects]]
+  from = "http://www.alexknowsdata.com/*"
+  to   = "https://alexknowsdata.com/:splat"
+  status = 301
+  force  = true
