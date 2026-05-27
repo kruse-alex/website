@@ -3,8 +3,17 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Alexander Held — Lead Data Science at Der Spiegel. ML products, data journalism, and visualizations from Hamburg.">
-<title>Alexander Held — Data Science</title>
+<meta name="description" content="Alex Held — Lead Data Science at Der Spiegel. ML products, data viz, and writing from Hamburg.">
+<title>Alex Held — Data Science</title>
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.alexknowsdata.com/">
+<meta property="og:title" content="Alex Held — Data Science">
+<meta property="og:description" content="Lead Data Science at Der Spiegel. ML products, data viz, and writing from Hamburg.">
+<meta property="og:image" content="https://www.alexknowsdata.com/akr.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Alex Held — Data Science">
+<meta name="twitter:description" content="Lead Data Science at Der Spiegel. ML products, data viz, and writing from Hamburg.">
+<meta name="twitter:image" content="https://www.alexknowsdata.com/akr.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
@@ -159,6 +168,7 @@
 
   /* ABOUT */
   .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start; }
+  .about-photo { width: 96px; height: 96px; border-radius: 50%; object-fit: cover; object-position: center top; border: 2px solid var(--border); margin-bottom: 1.5rem; filter: grayscale(30%); }
   @media (max-width: 680px) { .about-grid { grid-template-columns: 1fr; } }
   .about-text p { color: var(--muted); font-size: 13.5px; line-height: 1.85; margin-bottom: 1rem; }
   .about-text p strong { color: var(--text); font-weight: 500; }
@@ -464,6 +474,7 @@
     </div>
 
     <div>
+      <img src="/akr.jpg" alt="Alex Held" class="about-photo">
       <div class="timeline">
         <div class="tl-item">
           <div class="tl-dot"></div>
