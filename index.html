@@ -508,25 +508,15 @@
 <script>
   (function() {
     const el = document.getElementById('nav-brand');
-    const prompt = 'alex@held:~$';
-    const cmd = ' open portfolio.sh';
+    const text = 'alex@held:~$';
     let i = 0;
-    function typePrompt() {
-      if (i <= prompt.length) {
-        el.textContent = prompt.slice(0, i++);
-        setTimeout(typePrompt, 80);
-      } else {
-        setTimeout(typeCmd, 1800);
+    function type() {
+      if (i <= text.length) {
+        el.textContent = text.slice(0, i++);
+        setTimeout(type, 80);
       }
     }
-    let j = 0;
-    function typeCmd() {
-      if (j <= cmd.length) {
-        el.textContent = prompt + cmd.slice(0, j++);
-        setTimeout(typeCmd, 65);
-      }
-    }
-    setTimeout(typePrompt, 300);
+    setTimeout(type, 300);
   })();
 
   function toggleArchive(btn) {
