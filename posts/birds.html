@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bird Data Visualizations — Alex Held</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root { --bg: #0d1117; --bg2: #161b22; --border: #30363d; --text: #e6edf3; --muted: #8b949e; --accent: #58a6ff; }
+  body { background: var(--bg); color: var(--text); font-family: 'Inter', system-ui, sans-serif; font-size: 15px; line-height: 1.7; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  nav { position: sticky; top: 0; z-index: 100; background: rgba(13,17,23,.9); backdrop-filter: blur(14px); border-bottom: 1px solid var(--border); padding: 0 2rem; display: flex; align-items: center; height: 56px; }
+  .nav-brand { font-family: 'JetBrains Mono', monospace; font-size: 13px; color: var(--accent); }
+  .nav-back { margin-left: auto; font-size: 13px; color: var(--muted); }
+  .nav-back:hover { color: var(--text); }
+  .post { max-width: 720px; margin: 0 auto; padding: 64px 2rem 96px; }
+  .post-meta { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--muted); margin-bottom: 1.5rem; }
+  .post h1 { font-size: clamp(1.6rem, 4vw, 2.4rem); font-weight: 600; letter-spacing: -.02em; line-height: 1.2; margin-bottom: .75rem; }
+  .post-content { margin-top: 2.5rem; }
+  .post-content p { color: var(--muted); margin-bottom: 1.25rem; }
+  .post-content h2 { font-size: 1.2rem; font-weight: 600; margin: 2.5rem 0 .75rem; color: var(--text); }
+  .post-content img { max-width: 100%; border-radius: 6px; margin: 1.5rem 0; border: 1px solid var(--border); }
+  .post-content pre { background: var(--bg2); border: 1px solid var(--border); border-radius: 6px; padding: 1.25rem; overflow-x: auto; margin: 1.25rem 0; }
+  .post-content code { font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #e6edf3; }
+  .post-content ul, .post-content ol { color: var(--muted); padding-left: 1.5rem; margin-bottom: 1.25rem; }
+  .post-content li { margin-bottom: .35rem; }
+  .viz-link { display: inline-flex; align-items: center; gap: .4rem; margin-top: .5rem; font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--accent); border: 1px solid rgba(88,166,255,.25); padding: .3rem .7rem; border-radius: 4px; transition: background .2s; }
+  .viz-link:hover { background: rgba(88,166,255,.07); text-decoration: none; }
+  blockquote { border-left: 2px solid var(--border); padding-left: 1.25rem; margin: 1.5rem 0; }
+  blockquote p { font-style: italic; }
+  footer { border-top: 1px solid var(--border); padding: 1.5rem 2rem; text-align: center; font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--muted); }
+  footer a { color: var(--accent); }
+</style>
+</head>
+<body>
+<nav>
+  <a href="/" class="nav-brand">alex@held:~$</a>
+  <a href="/" class="nav-back">← Back</a>
+</nav>
+<div class="post">
+  <div class="post-meta">JavaScript · 2024</div>
+  <h1>Bird Data Visualizations</h1>
+  <div class="post-content">
+    <p>In 2024 I took part in <a href="https://www.jerthorp.me/learning" target="_blank" rel="noopener">Binoculars to Binomials</a>, a course by <strong>Jer Thorp</strong> for coders interested in cultivating an observational practice — and for birders who want to dive into the data that comes out of their hobby. It sits right at the overlap of environmental care, data, and creativity.</p>
+    <p>The course pushed me to actually go outside and look at things more carefully. These are three pieces I made during it.</p>
+
+    <h2>Woodpecker Sound Visualization</h2>
+    <p>An animation of the sounds of local woodpeckers — each species has a distinct drumming pattern and call. I encoded those rhythms visually, letting the audio structure drive the generative output.</p>
+    <a href="https://wookpecker-sound-viz.glitch.me" target="_blank" rel="noopener" class="viz-link">↗ Open visualization</a>
+
+    <h2>Eurasian Oystercatcher — eBird Checklist Submissions</h2>
+    <p>I spotted an Oystercatcher on the Alster one day — a bird I'd never seen in the city before. I assumed it was rare. The eBird data said otherwise: hundreds of checklist submissions per month year-round. Looking closer at the bird, I noticed its right leg was injured, flopping limply with each step. That detail, too, would have escaped me without careful observation.</p>
+    <blockquote><p>"It's amazing how rewarding birdwatching can be. The oystercatcher flies out over the Alster lake. My gaze drifts to an elderly lady who has a pigeon perched on her hand and is surrounded by dozens more pigeons and coots. A father asks the woman if she could spare some bird food for his daughter. Among the hungry flock of birds, I spot my potential oystercatcher again."</p></blockquote>
+    <a href="https://oyster-hamburg-viz.glitch.me" target="_blank" rel="noopener" class="viz-link">↗ Open visualization</a>
+
+    <h2>Binoculars to Binomials — Hamburg Bird Count</h2>
+    <p>Using data from the NABU bi-annual bird count, with over 130,000 birders participating across Germany in the winter edition. I focused on a Hamburg subset and built a binocular-style visualization comparing which birds are spotted in gardens in summer vs. winter — showing which ones migrate and which ones stay. The Common Chiffchaff drops 98% between seasons.</p>
+    <a href="https://birdcount-hamburg-viz.glitch.me" target="_blank" rel="noopener" class="viz-link">↗ Open visualization</a>
+  </div>
+</div>
+<footer><a href="/">← alex held</a></footer>
+</body>
+</html>
