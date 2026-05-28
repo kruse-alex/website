@@ -1,0 +1,12 @@
+data/spon_articles_with_body_and_plain_text.csv
+data/Article_Metadata_Yearly_Sample_SPON_Paid (1).csv
+data/author_gender.json
+pipeline/__pycache__
+pipeline/scrape_authors.py
+pipeline/build_corpus.py
+spiegel-corpus/
+posts/
+public/
+*.html
+*.jpg
+.git
