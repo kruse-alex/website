@@ -27,7 +27,7 @@ netlify.toml            — publish = ".", command = "" (no build)
 
 - Dark terminal aesthetic: base `#0d1117`, accent `#58a6ff`
 - Fonts: JetBrains Mono (mono/headings) + Inter (body)
-- Nav brand: `alex@held:~$` — typewriter animation + blinking cursor on page load
+- Nav brand: `alex@held:~$` — typewriter animation + blinking cursor; retypes every 5s
 - All content uses `.list-block` / `.list-item` rows (no cards)
 
 ## Site Sections
@@ -37,19 +37,22 @@ netlify.toml            — publish = ".", command = "" (no build)
 - The Audiencers (3 articles, 2023/2024/2025)
 - Talks & Webinars (3 talks, 2023)
 - Medium (3 visible + 5 in toggle)
-- Data Viz (birds 2024, marathon, finedust, stadtrad, ddj, generative art, attribution)
+- DDJ, Data Viz & Citizen Science (birds 2024, marathon, finedust, stadtrad, ddj) — each item has a lighter-grey subtitle
 - More older work (collapsible archive)
-- Hackathons & competitions (3 visible + 2 in toggle)
+- Hackathons & competitions (3 visible + 2 in toggle) — uses `.list-block`/`.list-item` with subtitles, not archive-block
 
 **About** (`#about`)
 - Bio text (2 paragraphs)
 - Profile photo: `akr.jpg` (circular)
-- Timeline: Lead DS @ Der Spiegel → Data Analyst @ ZEIT Online → Data Journalist @ Spiegel Online (Google News Fellowship) → Data Analyst @ etracker → M.Sc. Business Analytics @ Uni Duisburg-Essen
+- Timeline: Lead DS @ Der Spiegel → Data Analyst @ ZEIT Online → Google News Fellowship @ Spiegel Online (Data Journalism · 2018) → Data Analyst @ etracker → M.Sc. Business Analytics @ Uni Duisburg-Essen
 - LinkedIn + Medium links at bottom of page
 
 ## Key Decisions
 
 - No footer — page ends after About
+- Hero and sections both use `max-width: 1060px` so left edges align on wide screens
+- Section h2 titles ("Work", "About") are removed — only the `// label` shows above content
+- All collapsible toggles are labelled `more...` (not "5 more articles" etc.)
 - No skill tags in About (removed)
 - Sub-headings in Work are short publication/venue names, not verbose descriptions
 - Old blog post subpages all use `alex@held:~$` nav brand and `← alex held` footer link
