@@ -5,7 +5,7 @@ Personal portfolio for **Alex Held**, Lead Data Science at Der Spiegel, Hamburg.
 ## Repo & Deployment
 
 - **Live site:** https://www.alexknowsdata.com
-- **GitHub:** https://github.com/kruse-alex/website (account: `kruse-alex`)
+- **GitHub:** https://github.com/alexknowsdata/website (account: `alexknowsdata`)
 - **Netlify:** auto-deploys on every push to `master`, no build step
 - **Deploy:** `git add`, `git commit`, `git push origin master`
 
